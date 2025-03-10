@@ -22,3 +22,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+.vs/
+
+# TypeScript build artifacts
+*.tsbuildinfo
+
+# GitHub Actions
+.github/workflows/*.log
+
+
