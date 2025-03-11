@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    align-items: center; /* Aligns text and image vertically */
+    justify-content: space-evenly;
+    height: 100vh;
+}
+
+.image {
+    width: 400px; /* Adjust as needed */
+    height: auto;
+    border-radius: 10px; /* Optional: Rounds corners */
+}
+
+.text {
+    max-width: 600px; /* Optional: Limits text width */
+    font-size: 20px;
+}
+
+.icon-container {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icons {
+    font-size: 50px;
+    color: white;
+}
+
+.icon-linkedin:hover {
+    color: #0077B5;
+}
+
+.icon-pdf:hover {
+    color: #FF0000;
+}
+
+.icon-email:hover {
+    color: #0072C6;
+}
+
+.icon-credly:hover {
+    color: #FF6B00;
+}
+/* Responsive design: Stack image and text on smaller screens */
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
