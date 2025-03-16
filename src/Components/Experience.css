@@ -1,0 +1,48 @@
+.experience-page-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.experiecne-button-container {
+    display: flex;
+    flex-direction: row;
+}
+.experiecne-button-container button {
+    background: none;
+    border: none;
+    padding: 10px;
+    margin: 0px 5px 0px 5px;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+}
+.experiecne-button-container button:hover, .experiecne-button-container button.active {
+    border-bottom: 1px solid #ddd; 
+}
+.content {
+    flex: 1;
+}
+
+.content h2 {
+    margin: 10px 0px 0px 0px;
+}
+
+.content-dates {
+    margin: 0px;
+    font-size: 14px;
+}
+
+ul {
+    postion: relative;
+    list-style: none;
+}
+
+li::before {
+    content: '▶';
+    postion: absolute;
+    left: 0;
+    margin-right: 5px;
+}
+
