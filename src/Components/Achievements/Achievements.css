@@ -1,0 +1,18 @@
+.achievement-grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* Responsive columns */
+    gap: 10px;
+}
+
+.achievement-grid-item{
+    background-color: #3A3B3C; /* Dark background */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.pdf-link{
+    text-decoration: none;
+    color: white;
+}
+

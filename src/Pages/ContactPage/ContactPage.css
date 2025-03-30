@@ -1,0 +1,30 @@
+.contact-me-container{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 30px;
+}
+
+.contact-me-title-container{
+    text-align: center;
+    font-size: 28px;
+}
+
+.contact-me-body-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.body-left-container{
+}
+
+.body-right-container{
+    text-align: right;
+}
+
+.body-text{
+    font-size: 20px;
+}
+
+.body-logo{
+    margin-right: 10px;
+}

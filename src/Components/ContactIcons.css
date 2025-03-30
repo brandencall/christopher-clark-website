@@ -1,0 +1,26 @@
+.icon-container {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icons {
+    font-size: 50px;
+    color: white;
+}
+
+.icon-linkedin:hover {
+    color: #0077B5;
+}
+
+.icon-pdf:hover {
+    color: #FF0000;
+}
+
+.icon-email:hover {
+    color: #0072C6;
+}
+
+.icon-credly:hover {
+    color: #FF6B00;
+}

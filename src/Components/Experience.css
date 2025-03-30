@@ -1,5 +1,5 @@
 .experience-page-container {
-    max-width: 800px;
+    max-width: 1000px;
     margin: auto;
 }
 
@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: row;
 }
+
 .experiecne-button-container button {
     background: none;
     border: none;
@@ -18,9 +19,11 @@
     font-size: 16px;
     text-align: center;
 }
+
 .experiecne-button-container button:hover, .experiecne-button-container button.active {
     border-bottom: 1px solid #ddd; 
 }
+
 .content {
     flex: 1;
 }
@@ -31,18 +34,20 @@
 
 .content-dates {
     margin: 0px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 ul {
     postion: relative;
     list-style: none;
 }
+.work-experience-list{
+    margin-bottom: 5px;
+}
 
-li::before {
+.work-experience-list::before {
     content: '▶';
     postion: absolute;
     left: 0;
     margin-right: 5px;
 }
-
