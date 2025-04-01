@@ -18,7 +18,7 @@ const experiences = [
     },
     {
         id: "job2",
-        company: "United States Army  Al Udeid AB, Qatar",
+        company: "United States Army  Al Udeid AB, Qatar/Fort Bliss, TX",
         role: "Information System Security Engineer (ISSE)",
         date: "December 2022 - March 2024",
         details: [
