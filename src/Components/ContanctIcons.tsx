@@ -16,7 +16,7 @@ function ContactIcons() {
             <a href="mailto:christophersjgrclark@gmail.com" title="Email">
                 <MdEmail className="icons icon-email" />
             </a>
-            <a href="https://info.credly.com/" title="Credly">
+            <a href="https://www.credly.com/users/christopherclark" title="Credly">
                 <SiCredly className="icons icon-credly" />
             </a>
         </div>
