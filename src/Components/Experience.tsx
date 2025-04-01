@@ -18,7 +18,7 @@ const experiences = [
     },
     {
         id: "job2",
-        company: "United States Army/Military",
+        company: "United States Army",
         role: "Information System Security Engineer (ISSE)",
         date: "December 2022 - March 2024",
         details: [
@@ -30,7 +30,7 @@ const experiences = [
     },
     {
         id: "job3",
-        company: "United States Army/Military",
+        company: "United States Army",
         role: "COMSEC Manager",
         date: "September 2021 to November 2022",
         details: [
@@ -41,7 +41,7 @@ const experiences = [
     },
     {
         id: "job4",
-        company: "United States Army/Military",
+        company: "United States Army",
         role: "Network Security Administrator",
         date: "April 2020 to August 2021",
         details: [
@@ -52,7 +52,7 @@ const experiences = [
     },
     {
         id: "job5",
-        company: "United States Army/Military",
+        company: "U.S. Army | Camp Walker, Daegu, Korea",
         role: "IT Operations Manager",
         date: "March 2019 to March 2020",
         details: [
