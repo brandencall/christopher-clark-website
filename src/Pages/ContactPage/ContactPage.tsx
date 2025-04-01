@@ -12,7 +12,7 @@ function ContactPage() {
             <div className="contact-me-title-container">
                 <h1>Contact Me</h1>
             </div>
-            <p className="body-text">You can reach me at either my email or phone number!</p>
+            <p className="body-text">Feel free to contact me by email or phone with any questions, ideas, or professional inquiries.</p>
             <div className="contact-me-body-container">
                 <div className="body-left-container">
                     <p className="body-text"><IoLocation className="body-logo" />Location</p>
