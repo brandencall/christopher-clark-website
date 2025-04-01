@@ -25,7 +25,7 @@ function ContactPage() {
                     <p className="body-text">Albuquerque, New Mexico</p>
                     <p className="body-text">christophersjgrclark@gmail.com</p>
                     <p className="body-text">University of New Mexico (UNM), Liberty University, and Champlain College</p>
-                    <p className="body-text">(915)291-7016</p>
+                    <p className="body-text">Call: (915)291-7016 | Text: (915)247-8178</p>
                     <p className="body-text">English</p>
                 </div>
             </div>
