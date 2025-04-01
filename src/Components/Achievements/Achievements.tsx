@@ -2,8 +2,8 @@ import AchievmentCard from "../../Components/Achievements/AchievementCard.tsx";
 import "./Achievements.css";
 
 function Achievements() {
-    const PDF = "public/BLS.pdf";
-    const HeadShot = "public/ChristopherClarkHeadShot.jpeg";
+    const PDF = "/BLS.pdf";
+    const HeadShot = "/ChristopherClarkHeadShot.JPEG";
     return (
         <div className="achievement-grid-container">
             <a className="pdf-link" href={PDF} target="_blank">

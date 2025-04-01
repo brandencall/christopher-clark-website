@@ -10,7 +10,7 @@ function ContactIcons() {
             <a href="https://www.linkedin.com/in/christopherc3/" title="LinkedIn">
                 <FaLinkedin className="icons icon-linkedin" />
             </a>
-            <a href="public/ChristopherClarkResume.pdf" title="Resume" target="_blank" rel="noopener noreferrer">
+            <a href="/ChristopherClarkResume.pdf" title="Resume" target="_blank" rel="noopener noreferrer">
                 <FaFilePdf className="icons icon-pdf" />
             </a>
             <a href="mailto:christophersjgrclark@gmail.com" title="Email">

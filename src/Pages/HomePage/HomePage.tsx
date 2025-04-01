@@ -4,7 +4,7 @@ import "./HomePage.css";
 function HomePage() {
     return (
         <div className="container">
-            <img src="public/ChristopherClarkHeadShot.jpeg" alt="Christopher Clark" width="500" className="image" />
+            <img src="/ChristopherClarkHeadShot.JPEG" alt="Christopher Clark" width="500" className="image" />
             <div className="text">
                 <h2>Christopher Clark</h2>
                 <p>Description goes here. Some filler text for now: Lorem ipsum dolor sit amet, consectetur adipiscing
