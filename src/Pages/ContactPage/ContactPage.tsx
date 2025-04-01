@@ -23,9 +23,9 @@ function ContactPage() {
                 </div>
                 <div className="body-right-container">
                     <p className="body-text">Albuquerque, New Mexico</p>
-                    <p className="body-text">email@email.com</p>
-                    <p className="body-text">School Name</p>
-                    <p className="body-text">(999)-999-9999</p>
+                    <p className="body-text">christophersjgrclark@gmail.com</p>
+                    <p className="body-text">University of New Mexico (UNM) & Liberty University</p>
+                    <p className="body-text">(915)291-7016</p>
                     <p className="body-text">English</p>
                 </div>
             </div>
