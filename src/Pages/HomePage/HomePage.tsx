@@ -1,11 +1,10 @@
-import HeadShot from "@/assets/ChristopherClarkHeadShot.jpeg";
-import "./HomePage.css";
 import ContactIcons from "../../Components/ContanctIcons";
+import "./HomePage.css";
 
 function HomePage() {
     return (
         <div className="container">
-            <img src={HeadShot} alt="Christopher Clark" width="500" className="image" />
+            <img src="public/ChristopherClarkHeadShot.jpeg" alt="Christopher Clark" width="500" className="image" />
             <div className="text">
                 <h2>Christopher Clark</h2>
                 <p>Description goes here. Some filler text for now: Lorem ipsum dolor sit amet, consectetur adipiscing
