@@ -52,7 +52,7 @@ const experiences = [
     },
     {
         id: "job5",
-        company: "U.S. Army | Camp Walker, Daegu, Korea",
+        company: "United States Army Camp Walker, Daegu, Korea",
         role: "IT Operations Manager",
         date: "March 2019 to March 2020",
         details: [
