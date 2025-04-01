@@ -41,7 +41,7 @@ const experiences = [
     },
     {
         id: "job4",
-        company: "United States Army",
+        company: "United States Army Camp Walker, Daegu, Korea",
         role: "Network Security Administrator",
         date: "April 2020 to August 2021",
         details: [
@@ -52,7 +52,7 @@ const experiences = [
     },
     {
         id: "job5",
-        company: "United States Army Camp Walker, Daegu, Korea",
+        company: "United States Army Camp Walker, South Korea",
         role: "IT Operations Manager",
         date: "March 2019 to March 2020",
         details: [
