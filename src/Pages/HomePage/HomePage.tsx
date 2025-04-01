@@ -1,4 +1,4 @@
-import HeadShot from "../../assets/ChristopherClarkHeadShot.jpeg";
+import HeadShot from "@/assets/ChristopherClarkHeadShot.jpeg";
 import "./HomePage.css";
 import ContactIcons from "../../Components/ContanctIcons";
 
