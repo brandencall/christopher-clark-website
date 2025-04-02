@@ -14,7 +14,7 @@ function Achievements() {
                     <AchievmentCard image="/ChristopherClarkHeadShot.JPEG" title="Title of Cert" size={300} />
                 </div>
             </a>
-            <a className="pdf-link" href="/CISA-Cert" target="_blank">
+            <a className="pdf-link" href="/CISA-Cert.pdf" target="_blank">
                 <div className="achievement-grid-item">
                     <AchievmentCard image="/CISA-IMG" title="CISA" size={300} />
                 </div>
