@@ -47,7 +47,7 @@ function SkillsPage() {
                 </div>
                 <div className="education-card">
                     <div className="education-card-head">
-                        <h2 className="education-card-head-title">Master of Science in Project Management (MSPM)</h2>
+                        <h2 className="education-card-head-title">Master of Science (M.Sc) in Project Management (MSPM)</h2>
                         <p className="education-date">Mar 2024 - Present</p>
                     </div>
                     <p className="education-location">University of New Mexico (UNM) | Albuquerque, New Mexico (NM)</p>
@@ -60,7 +60,7 @@ function SkillsPage() {
                 </div>
                 <div className="education-card">
                     <div className="education-card-head">
-                        <h2 className="education-card-head-title">Bachelor of Science in Information Technology (IT), Data Network & Security</h2>
+                        <h2 className="education-card-head-title">Bachelor of Science (B.Sc) in Information Technology (IT), Data Network & Security</h2>
                         <p className="education-date">Jan 2021 - Dec 2021</p>
                     </div>
                     <p className="education-location">Liberty University | Lynchburg, Virginia(VA)</p>
