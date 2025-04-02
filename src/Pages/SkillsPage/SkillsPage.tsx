@@ -34,12 +34,12 @@ function SkillsPage() {
                 <h1 className="section-header">Education</h1>
                 <div className="education-card">
                     <div className="education-card-head">
-                        <h2 className="education-card-head-title">Title of the Education</h2>
-                        <p className="education-date">Dec 2019 - Present</p>
+                        <h2 className="education-card-head-title">Master of Business Administration (MBA), Cybersecurity Track</h2>
+                        <p className="education-date">Mar 2024 - Present</p>
                     </div>
-                    <p className="education-location">School Name | Education Location</p>
+                    <p className="education-location">University of New Mexico (UNM) | Albuquerque, New Mexico (NM)</p>
                     <ul className="education-list">
-                        <li>Description of the education alsdkjf alsdkjjlkd dlskjfkj akljfdkj jfdj</li>
+                        <li>Description of the education</li>
                         <li>Description of the education</li>
                         <li>Description of the education</li>
                         <li>Description of the education</li>
@@ -47,12 +47,51 @@ function SkillsPage() {
                 </div>
                 <div className="education-card">
                     <div className="education-card-head">
-                        <h2 className="education-card-head-title">Title of the Education</h2>
-                        <p className="education-date">Dec 2019 - Present</p>
+                        <h2 className="education-card-head-title">Master of Science in Project Management (MSPM)</h2>
+                        <p className="education-date">Mar 2024 - Present</p>
                     </div>
-                    <p className="education-location">School Name | Education Location</p>
+                    <p className="education-location">University of New Mexico (UNM) | Albuquerque, New Mexico (NM)</p>
                     <ul className="education-list">
-                        <li>Description of the education alsdkjf alsdkjjlkd dlskjfkj akljfdkj jfdj</li>
+                        <li>Description of the education</li>
+                        <li>Description of the education</li>
+                        <li>Description of the education</li>
+                        <li>Description of the education</li>
+                    </ul>
+                </div>
+                <div className="education-card">
+                    <div className="education-card-head">
+                        <h2 className="education-card-head-title">Bachelor of Science in Information Technology (IT), Data Network & Security</h2>
+                        <p className="education-date">Jan 2021 - Dec 2021</p>
+                    </div>
+                    <p className="education-location">Liberty University | Lynchburg, Virginia(VA)</p>
+                    <ul className="education-list">
+                        <li>Description of the education</li>
+                        <li>Description of the education</li>
+                        <li>Description of the education</li>
+                        <li>Description of the education</li>
+                    </ul>
+                </div>
+                <div className="education-card">
+                    <div className="education-card-head">
+                        <h2 className="education-card-head-title">Certificate in Advanced Cybersecurity</h2>
+                        <p className="education-date">Oct 2020  - May 2022</p>
+                    </div>
+                    <p className="education-location">Champlain College | Burlington, Vermont (VT)</p>
+                    <ul className="education-list">
+                        <li>Description of the education</li>
+                        <li>Description of the education</li>
+                        <li>Description of the education</li>
+                        <li>Description of the education</li>
+                    </ul>
+                </div>
+                <div className="education-card">
+                    <div className="education-card-head">
+                        <h2 className="education-card-head-title">Certificate in Computer Forensics & Digital Investigations</h2>
+                        <p className="education-date">Jan 2021  - Aug 2021</p>
+                    </div>
+                    <p className="education-location">Champlain College | Burlington, Vermont (VT)</p>
+                    <ul className="education-list">
+                        <li>Description of the education</li>
                         <li>Description of the education</li>
                         <li>Description of the education</li>
                         <li>Description of the education</li>
