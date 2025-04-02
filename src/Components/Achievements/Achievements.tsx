@@ -16,7 +16,7 @@ function Achievements() {
             </a>
             <a className="pdf-link" href="/CISA-Cert.pdf" target="_blank">
                 <div className="achievement-grid-item">
-                    <AchievmentCard image="/CISA-IMG" title="CISA" size={300} />
+                    <AchievmentCard image="/CISA-IMG.png" title="CISA" size={300} />
                 </div>
             </a>
             <a className="pdf-link" href="/BLS.pdf" target="_blank">
