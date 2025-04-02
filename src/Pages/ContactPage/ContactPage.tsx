@@ -15,10 +15,10 @@ function ContactPage() {
             <p className="body-text">Feel free to contact me by email or phone with any questions, ideas, or professional inquiries.</p>
             <div className="contact-me-body-container">
                 <div className="body-left-container">
-                    <p className="body-text"><IoLocation className="body-logo" />Location</p>
                     <p className="body-text"><MdEmail className="body-logo" />Email</p>
-                    <p className="body-text"><FaSchoolFlag className="body-logo" />Education</p>
                     <p className="body-text"><FaPhoneFlip className="body-logo" />Mobile Number</p>
+                    <p className="body-text"><IoLocation className="body-logo" />Location</p>
+                    <p className="body-text"><FaSchoolFlag className="body-logo" />Education</p>
                     <p className="body-text"><FaGlobeAmericas className="body-logo" />Languages</p>
                 </div>
                 <div className="body-right-container">
