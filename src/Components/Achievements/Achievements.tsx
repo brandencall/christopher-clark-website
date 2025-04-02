@@ -14,6 +14,16 @@ function Achievements() {
                     <AchievmentCard image="/CRISC-IMG.png" title="CRISC" size={300} />
                 </div>
             </a>
+            <a className="pdf-link" href="/CRISC-Cert.pdf" target="_blank">
+                <div className="achievement-grid-item">
+                    <AchievmentCard image="/CRISC-IMG.png" title="CRISC" size={300} />
+                </div>
+            </a>
+            <a className="pdf-link" href="/CRISC-Cert.pdf" target="_blank">
+                <div className="achievement-grid-item">
+                    <AchievmentCard image="/CRISC-IMG.png" title="CRISC" size={300} />
+                </div>
+            </a>
             <a className="pdf-link" href="/CISA-Cert.pdf" target="_blank">
                 <div className="achievement-grid-item">
                     <AchievmentCard image="/CISA-IMG.png" title="CISA" size={300} />
