@@ -4,14 +4,14 @@ import "./Achievements.css";
 function Achievements() {
     return (
         <div className="achievement-grid-container">
-            <a className="pdf-link" href="/BLS.pdf" target="_blank">
+            <a className="pdf-link" href="/CISM-Cert.pdf" target="_blank">
                 <div className="achievement-grid-item">
-                    <AchievmentCard image="/ChristopherClarkHeadShot.JPEG" title="Title of Cert" size={300} />
+                    <AchievmentCard image="/CISM-IMG.png" title="CRISC" size={300} />
                 </div>
             </a>
-            <a className="pdf-link" href="/BLS.pdf" target="_blank">
+            <a className="pdf-link" href="/CRISC-Cert.pdf" target="_blank">
                 <div className="achievement-grid-item">
-                    <AchievmentCard image="/ChristopherClarkHeadShot.JPEG" title="Title of Cert" size={300} />
+                    <AchievmentCard image="/CRISC-IMG.png" title="CRISC" size={300} />
                 </div>
             </a>
             <a className="pdf-link" href="/CISA-Cert.pdf" target="_blank">
