@@ -91,7 +91,7 @@ function Achievements() {
                 </a>
             <a className="pdf-link" href="/CEH-Cert.pdf" target="_blank">
                 <div className="achievement-grid-item">
-                    <AchievmentCard image="/CEHC-IMG.png" title="Certified Ethical Hacker (CEH)" size={300} />
+                    <AchievmentCard image="/CEH-IMG.png" title="Certified Ethical Hacker (CEH)" size={300} />
                 </div>
                 </a>
             <a className="pdf-link" href="/CHFI-Cert.pdf" target="_blank">
