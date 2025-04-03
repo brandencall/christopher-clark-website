@@ -96,7 +96,7 @@ function BackgroundPage() {
                 </ul>
             </div>
 
-            <h1 className="section-header">Achievements</h1>
+            <h1 className="section-header">Certifications</h1>
             <Achievements />
         </div>
     );
