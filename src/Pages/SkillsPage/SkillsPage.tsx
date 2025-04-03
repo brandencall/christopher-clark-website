@@ -124,7 +124,7 @@ function SkillsPage() {
                     </div>
                     <p className="education-location">Champlain College | Burlington, Vermont (VT)</p>
                     <ul className="education-list">
-                        <li>"Trained in securing, acquiring, and analyzing digital evidence using industry-standard forensic tools and processes.</li>
+                        <li>Trained in securing, acquiring, and analyzing digital evidence using industry-standard forensic tools and processes.</li>
                         <li>Explored anti-forensics, operating system forensics, and file recovery to trace user behavior and recover hidden data.</li>
                         <li>Studied cybercrime, criminal law, and legal evidence handling to ensure forensically sound investigation practices.</li>
                         <li>Built a foundation for supporting law enforcement or corporate investigations into insider threats, policy violations, or cyber incidents.</li>
