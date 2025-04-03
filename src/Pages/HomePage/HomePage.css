@@ -67,21 +67,26 @@ body, html {
     margin-top: 40px; /* <- increase this value */
     margin-bottom: 25px;
   }
+
+.image:hover {
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+    transition: box-shadow 0.3s ease;
+}
   
 
 /* Name */
 .name {
-    font-size: 28px;
+    font-size: 32px;
     font-weight: bold;
-    margin-bottom: 6px;
+    margin-bottom: 8px;
 }
 
 /* Subheading / Tagline */
 .tagline {
-    font-size: 17px;
+    font-size: 18px;
     font-style: italic;
     color: #ccc;
-    margin-bottom: 30px;
+    margin-bottom: 36px;
 }
 
 /* About Me Text */
