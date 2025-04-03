@@ -15,3 +15,24 @@ html, body {
     margin: 0;
     padding: 0;
 }
+
+.container, .text, .image {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+/* Optional: stagger fade for a smoother look */
+.text {
+    animation-delay: 0.2s;
+}
+.image {
+    animation-delay: 0.4s;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
