@@ -49,6 +49,10 @@ body, html {
     align-items: center;
 }
 
+.icon-row a:not(:last-child) {
+    margin-right: 60px; /* Adds spacing between icons */
+}
+
 /* Headshot Image */
 .image {
     width: 460px;
