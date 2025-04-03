@@ -85,6 +85,11 @@ function SkillsPage() {
                     <h2 className="skill-title">Networking (Basic Switching & Connectivity)</h2>
                     <p className="skill-description">I’ve physically installed and updated Cisco Catalyst 3850 switches and helped with TACLANE setup during field operations. I didn’t handle deep configuration, but I followed detailed instructions, supported upgrades, and worked closely with senior network engineers during troubleshooting.</p>
                 </div>
+                <h1 className="section-header">Transferable Skills</h1>
+                <div className="skill-container">
+                    <h2 className="skill-title">Professional Strengths</h2>
+                    <p className="skill-description">Problem Solving, Root Cause Analysis, Adaptability, Mentorship, Process Improvement, Communication, Attention to Detail</p>
+                </div>
             </div>
             <div className="content-section">
                 <h1 className="section-header">Experience</h1>
