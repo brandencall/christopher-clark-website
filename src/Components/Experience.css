@@ -9,6 +9,8 @@
 }
 
 .experience-button-container button {
+    all: unset;
+    color: white !important;
     background: none;
     border: none;
     padding: 10px;
@@ -18,14 +20,17 @@
     width: 100%;
     font-size: 16px;
     text-align: center;
-    color: #ccc !important;
 }
 
-.experience-button-container button:hover,
 .experience-button-container button.active {
     color: white !important;
-    border-bottom: 2px solid white;
     font-weight: bold;
+    border-bottom: 2px solid white;
+}
+
+.experience-button-container button:hover {
+    color: white !important;
+    border-bottom: 1px solid white;
 }
 
 .content {
