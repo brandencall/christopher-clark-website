@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import ContactIcons from "../../Components/ContactIcons"; // ✅ Make sure the path is correct
 import "./HomePage.css";
 
 function HomePage() {
@@ -12,17 +13,17 @@ function HomePage() {
         <div className={`container ${fadeIn ? "fade-in" : ""}`}>
             {/* Contact Icons */}
             <div className="icon-row">
-                {/* your icons */}
+                <ContactIcons />
             </div>
 
-            {/* Image */}
+            {/* Profile Image */}
             <img src="/ChristopherClarkHeadShot.JPEG" alt="Christopher Clark" className="image" />
 
-            {/* Name / Tagline */}
+            {/* Name and Tagline */}
             <h2 className="name">Christopher Clark</h2>
             <h3 className="tagline">Systems Administrator | Future IT Project Manager</h3>
 
-            {/* About Me */}
+            {/* About Me Section */}
             <div className="text">
                 <p>
                 My journey in IT began in July 2018 when I enlisted in the U.S. Army as a 25B, Information Technology Specialist. I didn’t know where that oath would take me, but I was ready to build something bigger than myself. From my early days in Basic Training and AIT, to being stationed in South Korea, I was immediately placed in fast-paced environments that demanded problem-solving, adaptability, and accountability. By 2019, I was promoted to Private First Class and entrusted with the role of IT Operations Manager, a rare opportunity at that level. Those early experiences taught me that leadership isn't tied to rank, but to reliability.
