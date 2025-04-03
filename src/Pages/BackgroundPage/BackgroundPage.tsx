@@ -5,7 +5,7 @@ import "./BackgroundPage.css";
 function BackgroundPage() {
     return (
         <div className="content-section">
-            <h1 className="section-header">Experience</h1>
+            <h1 className="section-header">Career Timeline</h1>
             <div className="experience-container">
                 <Experience />
             </div>
