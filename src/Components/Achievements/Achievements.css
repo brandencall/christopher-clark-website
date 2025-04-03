@@ -1,6 +1,6 @@
-.achievement-grid-container{
+.achievement-grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* Responsive columns */
+    grid-template-columns: repeat(3, 1fr); /* Force 3 columns */
     gap: 10px;
 }
 
