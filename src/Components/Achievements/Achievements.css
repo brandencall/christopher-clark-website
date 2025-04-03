@@ -7,12 +7,18 @@
     padding: 20px;
   }
 
-.achievement-grid-item {
+  .achievement-grid-item {
     background-color: #3A3B3C;
     padding: 20px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* optional subtle depth */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 320px;
+}
 }
     height: 100%;
     display: flex;
