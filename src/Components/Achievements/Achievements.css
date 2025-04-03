@@ -1,13 +1,13 @@
 .achievement-grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr); /* 3 per row */
     gap: 24px;
     max-width: 1080px;
     margin: 0 auto;
     padding: 20px;
-  }
+}
 
-  .achievement-grid-item {
+.achievement-grid-item {
     background-color: #3A3B3C;
     padding: 20px;
     text-align: center;
@@ -16,30 +16,24 @@
 
     display: flex;
     flex-direction: column;
-    justify-content: flex-start; /* Align content to the top */
     align-items: center;
-    min-height: 320px; /* Force all boxes to be same height */
-    height: 100%;
+    justify-content: space-between;
+
+    height: 100%;          /* ensures child elements stretch */
+    min-height: 320px;     /* makes all boxes same height */
 }
 
 .achievement-grid-item img {
-    height: 100px;
+    max-height: 140px;
     width: auto;
     object-fit: contain;
     margin-bottom: 15px;
 }
 
-.achievement-grid-item h3 {
-    font-size: 16px;
+.achievement-grid-item p {
+    margin-top: auto; /* pushes text downward if needed */
     font-weight: bold;
     line-height: 1.4;
-    margin: auto 0 0 0; /* Push text to bottom if space allows */
-    padding-top: 10px;
-}
-
-.pdf-link{
-    text-decoration: none;
-    color: white;
 }
 
 @media (max-width: 900px) {
