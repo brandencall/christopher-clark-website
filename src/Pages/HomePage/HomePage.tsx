@@ -46,7 +46,6 @@ function HomePage() {
                 </p>
                 <p>
                 I’m also enrolled in the Army National Guard’s Traditional Officer Candidate School program. Across three phases, I’ve been tested in leadership, planning, and tactical operations. From ruck marches to briefing OPORDs as a Squad Leader, I’ve learned how to lead under pressure and with purpose. I’m currently deferring my commission until a Signal Officer slot opens, where I believe I can make the greatest impact.
-
                 </p>
                 <p>
                 At the center of all this is a mindset I carry with me: take ownership, learn fast, support the mission, and elevate the people around you. Whether I’m solving problems at the keyboard or helping a team cross the finish line, I’m always looking for the most effective way to get the job done—and to do it well.
