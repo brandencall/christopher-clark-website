@@ -120,7 +120,7 @@ body, html {
 .fade-in-up {
     opacity: 0;
     transform: translateY(20px);
-    animation: fadeInUp 1.2s ease forwards;
+    animation: fadeInUp 1.4s ease forwards;
 }
 
 @keyframes fadeInUp {

@@ -11,7 +11,7 @@ function HomePage() {
 
     return (
         <div className={`container ${fadeIn ? "fade-in" : ""}`}>
-            <div className="icon-row fade-in-up" style={{ animationDelay: '0.3s' }}>
+            <div className="icon-row fade-in-up" style={{ animationDelay: '0.5s' }}>
                 <ContactIcons />
             </div>
 
@@ -22,14 +22,14 @@ function HomePage() {
                 style={{ animationDelay: '0.4s' }}
             />
 
-            <h2 className="name fade-in-up" style={{ animationDelay: '0.9s' }}>
+            <h2 className="name fade-in-up" style={{ animationDelay: '1.1s' }}>
                 Christopher Clark
             </h2>
-            <h3 className="tagline fade-in-up" style={{ animationDelay: '1.2s' }}>
+            <h3 className="tagline fade-in-up" style={{ animationDelay: '1.4s' }}>
                 Systems Administrator | Future IT Project Manager
             </h3>
 
-            <div className="text fade-in-up" style={{ animationDelay: '1.5s' }}>
+            <div className="text fade-in-up" style={{ animationDelay: '1.7s' }}>
                 {/* About Me content */}
             </div>
                 <p>
