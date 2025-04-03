@@ -51,7 +51,6 @@ function HomePage() {
                 At the center of all this is a mindset I carry with me: take ownership, learn fast, support the mission, and elevate the people around you. Whether I'm solving problems at the keyboard or helping a team cross the finish line, I'm always looking for the most effective way to get the job done—and to do it well.
                 </p>
             </div>
-        </div>
     );
 }
 
