@@ -10,13 +10,16 @@
 /* Contact Icons */
 .contact-icons {
     display: flex;
-    gap: 30px;
-    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; /* Spread them apart more */
+    flex-wrap: wrap;
+    margin-bottom: 30px;
 }
 
 /* Headshot */
 .image {
-    width: 350px;
+    width: 450px; /* Try 450 instead of 350 */
     height: auto;
     border-radius: 12px;
     object-fit: cover;
