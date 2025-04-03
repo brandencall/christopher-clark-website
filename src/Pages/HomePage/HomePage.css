@@ -15,26 +15,42 @@ body, html {
     text-align: center;
 }
 
-/* Contact Icons - new layout */
-.icon-row a {
+/* Profile Image + Icons container */
+.profile-wrapper {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+/* Floating corner icons */
+.icon-corner {
+    position: absolute;
+    font-size: 32px;
     color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 10;
     transition: transform 0.2s ease;
-    font-size: 32px; /* Increased for better visual separation */
-    width: 48px;       /* Ensures spacing is respected */
-    height: 48px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.icon-row a:not(:last-child) {
-    margin-right: 30px; /* Adds spacing between icons */
+.icon-corner.left {
+    top: -20px;
+    left: -20px;
 }
 
+.icon-corner.right {
+    top: -20px;
+    right: -20px;
+}
 
-.icon-row a:hover {
-    transform: scale(1.2);
-    color: #66ccff; /* or any accent color */
+.icon-corner:hover {
+    transform: scale(1.1);
+}
+
+.icon-corner a {
+    color: white;
+    text-decoration: none;
 }
 
 /* Headshot Image */
@@ -42,7 +58,6 @@ body, html {
     width: 460px;
     height: auto;
     border-radius: 12px;
-    margin-bottom: 25px;
 }
 
 /* Name */
@@ -52,7 +67,7 @@ body, html {
     margin-bottom: 6px;
 }
 
-/* Subheading / Tagline */
+/* Tagline */
 .tagline {
     font-size: 17px;
     font-style: italic;
@@ -79,10 +94,18 @@ body, html {
         padding: 0 12px;
     }
 
-    .icon-row {
-        flex-direction: row;
-        justify-content: center;
-        gap: 28px;
-        margin-bottom: 30px;
+    .icon-corner {
+        font-size: 26px;
+        padding: 8px;
+    }
+
+    .icon-corner.left {
+        top: -18px;
+        left: -15px;
+    }
+
+    .icon-corner.right {
+        top: -18px;
+        right: -15px;
     }
 }

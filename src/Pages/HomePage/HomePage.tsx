@@ -1,20 +1,28 @@
-import ContactIcons from "../../Components/ContanctIcons";
+import { FaLinkedin, FaFilePdf, FaEnvelope } from "react-icons/fa";
+import { SiCredly } from "react-icons/si";
 import "./HomePage.css";
 
 function HomePage() {
     return (
         <div className="container">
-            {/* Contact Icons - updated class for better spacing */}
-            <div className="icon-row">
-                <ContactIcons />
+            {/* Profile Wrapper with Floating Icons */}
+            <div className="profile-wrapper">
+                <div className="icon-corner left">
+                    <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">
+                        <FaLinkedin />
+                    </a>
+                </div>
+                <div className="icon-corner right">
+                    <a href="https://www.credly.com" target="_blank" rel="noreferrer">
+                        <SiCredly />
+                    </a>
+                </div>
+                <img
+                    src="/ChristopherClarkHeadShot.JPEG"
+                    alt="Christopher Clark"
+                    className="image"
+                />
             </div>
-
-            {/* Profile Image */}
-            <img
-                src="/ChristopherClarkHeadShot.JPEG"
-                alt="Christopher Clark"
-                className="image"
-            />
 
             {/* Name and Tagline */}
             <h2 className="name">Christopher Clark</h2>
