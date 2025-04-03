@@ -130,6 +130,19 @@ function SkillsPage() {
                         <li>Built a foundation for supporting law enforcement or corporate investigations into insider threats, policy violations, or cyber incidents.</li>
                     </ul>
                 </div>
+                <div className="education-card">
+                    <div className="education-card-head">
+                        <h2 className="education-card-head-title">Certificate in Computer Forensics & Digital Investigations</h2>
+                        <p className="education-date">Jan 2021  - Aug 2021</p>
+                    </div>
+                    <p className="education-location">United States Army Signal School | Fort Eisenhower, Augusta, Georgia(GA)</p>
+                    <ul className="education-list">
+                        <li>Completed U.S. Army Advanced Individual Training (AIT) for the 25B MOS, developing foundational skills in client operating systems, network security, and system administration.</li>
+                        <li>Received hands-on training in hardware, Exchange Server, Windows Server, and wide area networks—learning to install, operate, and maintain critical IT infrastructure under mission-focused conditions.</li>
+                        <li>Gained practical experience with routing, switching, and troubleshooting techniques applicable to help desk, NOC, and field support environments.</li>
+                        <li>Built a strong understanding of information technology essentials, preparing to support and secure military and enterprise-level systems in high-availability environments.</li>
+                    </ul>
+                </div>
             </div>
             <div className="content-section">
                 <h1 className="section-header">Achievements</h1>
