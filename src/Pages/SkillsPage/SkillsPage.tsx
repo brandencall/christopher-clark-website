@@ -86,6 +86,7 @@ function SkillsPage() {
                     <p className="skill-description">I’ve physically installed and updated Cisco Catalyst 3850 switches and helped with TACLANE setup during field operations. I didn’t handle deep configuration, but I followed detailed instructions, supported upgrades, and worked closely with senior network engineers during troubleshooting.</p>
                 </div>
                 <h1 className="section-header">Transferable Skills</h1>
+                <p className="skill-intro-text">These are the traits I bring to every project, team, and mission—regardless of the role.</p>
                 <div className="skill-container">
                     <h2 className="skill-title">Professional Strengths</h2>
                     <p className="skill-description">Problem Solving, Root Cause Analysis, Adaptability, Mentorship, Process Improvement, Communication, Attention to Detail</p>
