@@ -75,7 +75,7 @@ function SkillsPage() {
                         <li>Developing leadership, strategic, and decision-making skills through courses in operations, economics, accounting, and marketing.</li>
                         <li>Studying cybersecurity concepts including risk management, systems security, and network administration from a business perspective.</li>
                         <li>Gaining hands-on experience with data-driven decision tools, technology commercialization, and strategic planning processes.</li>
-                        <li>Pursuing dual-degree alignment with the MSPM program to strengthen my path toward IT project and program management.</li>
+                        <li>Pursuing a dual-degree with the MSPM program to reinforce my transition into IT project and program management.</li>
                     </ul>
                 </div>
                 <div className="education-card">
@@ -85,10 +85,10 @@ function SkillsPage() {
                     </div>
                     <p className="education-location">University of New Mexico (UNM) | Albuquerque, New Mexico (NM)</p>
                     <ul className="education-list">
-                        <li>Description of the education</li>
-                        <li>Description of the education</li>
-                        <li>Description of the education</li>
-                        <li>Description of the education</li>
+                        <li>Building a robust foundation in project management principles, focusing on methodologies such as Agile and Waterfall to effectively lead technology-driven projects.</li>
+                        <li>Engaging in courses like Innovative Product Development and Technology Program Management to understand the lifecycle of tech products from conception to market deployment.</li>
+                        <li>Developing proficiency in analytical tools and techniques essential for data-driven decision-making and strategic planning in complex project environments.</li>
+                        <li>Complementing my MBA studies to seamlessly integrate business acumen with technical project management expertise, facilitating a holistic approach to IT project leadership.</li>
                     </ul>
                 </div>
                 <div className="education-card">
