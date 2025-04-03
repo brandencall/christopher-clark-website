@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import ContactIcons from "../../Components/ContactIcons";
+import ContactIcons from "../../Components/ContactIcons.tsx";
 import "./HomePage.css";
 
 function HomePage() {
