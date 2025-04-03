@@ -1,0 +1,62 @@
+.content-section{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.experience-container{
+    align-self: center;
+    width: 90%;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #222; /* Dark background */
+    color: white;
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0px 4px 30px rgba(0, 255, 255, 0.1); /* Soft cyan glow */
+}
+
+.skill-intro-text {
+    font-size: 1rem;
+    color: #ccc; /* subtle, soft gray */
+    margin-top: 0.5rem;
+    margin-bottom: 1.25rem;
+    text-align: center;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.education-card{
+    max-width: 1000px;
+    align-self: center;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #222; /* Dark background */
+    color: white;
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0px 4px 30px rgba(0, 255, 255, 0.1); /* Soft cyan glow */
+}
+
+.education-card-head{
+    display: flex;
+    justify-content: space-between;
+}
+
+.education-card-head-title{
+    margin-bottom: 0;
+}
+
+.education-date{
+    margin-bottom: 0;
+    align-self: flex-end;
+}
+
+.education-location{
+    margin-top: 0;
+}
+
+.education-list{
+    list-style-type: circle;
+}
