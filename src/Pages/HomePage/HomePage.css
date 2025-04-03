@@ -15,18 +15,25 @@ body, html {
     text-align: center;
 }
 
-/* Contact Icons */
-.contact-icons {
-    margin-bottom: 40px;
-}
-
-.icon-wrapper {
+/* Contact Icons - new layout */
+.icon-row {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 35px; /* spacing between each icon */
+    gap: 45px; /* Adjust spacing between icons */
+    margin-bottom: 40px;
+    margin-top: 20px;
     flex-wrap: wrap;
-    padding-bottom: 10px;
+}
+
+.icon-row a {
+    color: white;
+    transition: transform 0.2s ease;
+    font-size: 28px;
+}
+
+.icon-row a:hover {
+    transform: scale(1.1);
 }
 
 /* Headshot Image */
@@ -49,7 +56,7 @@ body, html {
     font-size: 17px;
     font-style: italic;
     color: #ccc;
-    margin-bottom: 35px;
+    margin-bottom: 30px;
 }
 
 /* About Me Text */
@@ -68,13 +75,13 @@ body, html {
 
     .text {
         font-size: 16px;
-        padding: 0 10px;
+        padding: 0 12px;
     }
 
-    .icon-wrapper {
+    .icon-row {
         flex-direction: row;
         justify-content: center;
-        gap: 20px;
-        padding-bottom: 10px;
+        gap: 28px;
+        margin-bottom: 30px;
     }
 }

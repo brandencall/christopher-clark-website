@@ -4,11 +4,9 @@ import "./HomePage.css";
 function HomePage() {
     return (
         <div className="container">
-            {/* Contact Icons */}
-            <div className="contact-icons">
-                <div className="icon-wrapper">
-                    <ContactIcons />
-                </div>
+            {/* Contact Icons - updated class for better spacing */}
+            <div className="icon-row">
+                <ContactIcons />
             </div>
 
             {/* Profile Image */}
