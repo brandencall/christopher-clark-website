@@ -1,27 +1,29 @@
 import { useEffect, useState } from "react";
-import ContactIcons from "../../Components/ContactIcons.tsx";
+import ContactIcons from "../../Components/ContactIcons";
 import "./HomePage.css";
 
 function HomePage() {
-    const [fadeIn, setFadeIn] = useState(false);
+  const [fadeIn, setFadeIn] = useState(false);
 
-    useEffect(() => {
-        setFadeIn(true);
-    }, []);
+  useEffect(() => {
+    setFadeIn(true);
+  }, []);
 
-    return (
-        <div className={`container ${fadeIn ? "fade-in" : ""}`}>
-            {/* Contact Icons */}
-            <div className="icon-row">
-                <ContactIcons />
-            </div>
+  return (
+    <div className={`container ${fadeIn ? "fade-in" : ""}`}>
+      {/* Contact Icons */}
+      <div className="icon-row fade-in">
+        <ContactIcons />
+      </div>
 
-            {/* Profile Image */}
-            <img src="/ChristopherClarkHeadShot.JPEG" alt="Christopher Clark" className="image" />
+      <img
+        src="/ChristopherClarkHeadShot.JPEG"
+        alt="Christopher Clark"
+        className="image"
+      />
 
-            {/* Name and Tagline */}
-            <h2 className="name">Christopher Clark</h2>
-            <h3 className="tagline">Systems Administrator | Future IT Project Manager</h3>
+      <h2 className="name">Christopher Clark</h2>
+      <h3 className="tagline">Systems Administrator | Future IT Project Manager</h3>
 
             {/* About Me Section */}
             <div className="text">
