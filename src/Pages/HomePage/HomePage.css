@@ -50,7 +50,7 @@ body, html {
 }
 
 .icon-row a:not(:last-child) {
-    margin-right: 70px; /* Adds spacing between icons */
+    margin-right: 85px; /* Adds spacing between icons */
 }
 
 /* Headshot Image */
