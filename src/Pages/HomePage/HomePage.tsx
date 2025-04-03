@@ -1,12 +1,30 @@
-import ContactIcons from "../../Components/ContanctIcons";
+import { FaLinkedin, FaFilePdf, FaEnvelope } from "react-icons/fa";
 import "./HomePage.css";
 
 function HomePage() {
     return (
         <div className="container">
-            {/* Contact Icons - updated class for better spacing */}
-            <div className="icon-row">
-                <ContactIcons />
+            {/* Contact Icons in Grid Layout */}
+            <div className="icon-grid">
+                {/* Left-aligned LinkedIn */}
+                <a href="https://www.linkedin.com/in/christopherjgrclark" target="_blank" rel="noopener noreferrer" className="icon left">
+                    <FaLinkedin />
+                </a>
+
+                {/* Center-aligned PDF and Email */}
+                <div className="icon-center">
+                    <a href="/ChristopherClarkResume.pdf" target="_blank" rel="noopener noreferrer" className="icon">
+                        <FaFilePdf />
+                    </a>
+                    <a href="mailto:christophersjgrclark@gmail.com" className="icon">
+                        <FaEnvelope />
+                    </a>
+                </div>
+
+                {/* Right-aligned Credly */}
+                <a href="https://www.credly.com/users/christopherjgrclark/badges" target="_blank" rel="noopener noreferrer" className="icon right">
+                    <img src="/credly-white.png" alt="Credly" className="credly-icon" />
+                </a>
             </div>
 
             {/* Profile Image */}

@@ -5,6 +5,7 @@ body, html {
     padding: 0;
 }
 
+/* Container for the whole section */
 .container {
     display: flex;
     flex-direction: column;
@@ -15,24 +16,50 @@ body, html {
     text-align: center;
 }
 
-/* Icon row with spacing */
-.icon-row {
-    display: flex;
-    justify-content: space-between;
+/* Grid-based layout for icons */
+.icon-grid {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
     align-items: center;
-    width: 500px; /* Match the image width */
-    margin-bottom: 20px;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 40px;
+    padding: 0 24px;
 }
 
-.icon-row a {
+/* LinkedIn left aligned */
+.icon.left {
+    justify-self: start;
+}
+
+/* Credly right aligned */
+.icon.right {
+    justify-self: end;
+}
+
+/* PDF and Email centered with spacing */
+.icon-center {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+/* Icon styling */
+.icon {
     color: white;
-    font-size: 32px;
+    font-size: 28px;
     transition: transform 0.2s ease;
     text-decoration: none;
 }
 
-.icon-row a:hover {
+.icon:hover {
     transform: scale(1.1);
+}
+
+/* Credly image icon */
+.credly-icon {
+    width: 32px;
+    height: auto;
 }
 
 /* Headshot Image */
@@ -66,63 +93,31 @@ body, html {
     padding: 0 24px;
 }
 
-/* Responsive layout */
+/* Responsive layout for mobile */
 @media (max-width: 768px) {
     .image {
         width: 90%;
     }
 
-    .icon-grid {
-        display: grid;
-        grid-template-columns: 1fr auto 1fr;
-        align-items: center;
-        width: 100%;
-        max-width: 600px;
-        margin-bottom: 40px;
-    }
-    
-    .icon.left {
-        justify-self: start;
-    }
-    
-    .icon.right {
-        justify-self: end;
-    }
-    
-    .icon-center {
-        display: flex;
-        gap: 32px;
-        justify-content: center;
-    }
-    
-    .icon {
-        color: white;
-        font-size: 28px;
-        transition: transform 0.2s ease;
-    }
-    
-    .icon:hover {
-        transform: scale(1.1);
-    }
-    
-    /* Responsive tweak */
-    @media (max-width: 768px) {
-        .icon-center {
-            gap: 20px;
-        }
-    
-        .icon {
-            font-size: 24px;
-        }
-    
-        .icon-grid {
-            grid-template-columns: 1fr auto 1fr;
-            padding: 0 16px;
-        }
-    }    
-
     .text {
         font-size: 16px;
         padding: 0 12px;
+    }
+
+    .icon-center {
+        gap: 24px;
+    }
+
+    .icon {
+        font-size: 24px;
+    }
+
+    .credly-icon {
+        width: 26px;
+    }
+
+    .icon-grid {
+        padding: 0 16px;
+        margin-bottom: 30px;
     }
 }
