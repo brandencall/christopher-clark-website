@@ -6,6 +6,19 @@ function SkillsPage() {
     return (
         <div className="skill-page-container">
             <div>
+            <h1 className="section-header">Tools and Technologies</h1>
+                <div className="skill-container">
+                    <h2 className="skill-title">Skill Title 1</h2>
+                    <p className="skill-description">Blah</p>
+                </div>
+                <div className="skill-container">
+                    <h2 className="skill-title">Skill Title 2</h2>
+                    <p className="skill-description">Blah</p>
+                </div>
+                <div className="skill-container">
+                    <h2 className="skill-title">Skill Title 3</h2>
+                    <p className="skill-description">Blah</p>
+                </div>
                 <h1 className="section-header">Project Management Skills</h1>
                 <div className="skill-container">
                     <h2 className="skill-title">Agile Concepts & Scrum Fundamentals</h2>
