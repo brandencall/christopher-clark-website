@@ -115,3 +115,22 @@ body, html {
         margin-bottom: 30px;
     }
 }
+
+/* Fade-in + translate up animation */
+.fade-in-up {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Optional: For smoother stagger effect */
+.fade-in-up {
+    animation-fill-mode: both;
+}
