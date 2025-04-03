@@ -3,27 +3,31 @@ import ContactIcons from "../../Components/ContactIcons.tsx";
 import "./HomePage.css";
 
 function HomePage() {
-  const [fadeIn, setFadeIn] = useState(false);
+    const [fadeIn, setFadeIn] = useState(false);
 
-  useEffect(() => {
-    setFadeIn(true);
-  }, []);
+    useEffect(() => {
+        setFadeIn(true);
+    }, []);
 
-  return (
-    <div className={`container ${fadeIn ? "fade-in" : ""}`}>
-      {/* Contact Icons */}
-      <div className="icon-row fade-in">
-        <ContactIcons />
-      </div>
+    return (
+        <div className={`container ${fadeIn ? "fade-in" : ""}`}>
+            <div className="icon-row fade-in-up" style={{ animationDelay: '0.2s' }}>
+                <ContactIcons />
+            </div>
 
-      <img
-        src="/ChristopherClarkHeadShot.JPEG"
-        alt="Christopher Clark"
-        className="image"
-      />
+            <img
+                src="/ChristopherClarkHeadShot.JPEG"
+                alt="Christopher Clark"
+                className="image fade-in-up"
+                style={{ animationDelay: '0.4s' }}
+            />
 
-      <h2 className="name">Christopher Clark</h2>
-      <h3 className="tagline">Systems Administrator | Future IT Project Manager</h3>
+            <h2 className="name fade-in-up" style={{ animationDelay: '0.6s' }}>
+                Christopher Clark
+            </h2>
+            <h3 className="tagline fade-in-up" style={{ animationDelay: '0.8s' }}>
+                Systems Administrator | Future IT Project Manager
+            </h3>
 
             {/* About Me Section */}
             <div className="text">
