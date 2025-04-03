@@ -1,56 +1,45 @@
 .achievement-grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
     max-width: 1080px;
     margin: 0 auto;
     padding: 20px;
   }
-  
-  .achievement-grid-item {
+
+.achievement-grid-item {
     background-color: #3A3B3C;
     padding: 20px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  
-    /* ✨ Key height control ✨ */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* optional subtle depth */
+}
     height: 100%;
-    min-height: 360px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
   }
-  
+
   .achievement-grid-item img {
     max-height: 140px;
     width: auto;
-    object-fit: contain;
     margin-bottom: 15px;
+    object-fit: contain;
   }
-  
-  .achievement-grid-item p {
-    margin-top: auto;
-    font-weight: bold;
-    line-height: 1.4;
-    min-height: 48px; /* optional: keeps text blocks aligned */
-  }
-  
-  /* Links remain white */
-  .pdf-link {
+
+.pdf-link{
     text-decoration: none;
     color: white;
-  }
-  
-  @media (max-width: 900px) {
+}
+
+@media (max-width: 900px) {
     .achievement-grid-container {
-      grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
-  }
-  
-  @media (max-width: 600px) {
+}
+
+@media (max-width: 600px) {
     .achievement-grid-container {
-      grid-template-columns: 1fr;
+        grid-template-columns: 1fr;
     }
-  }
-  
+}
