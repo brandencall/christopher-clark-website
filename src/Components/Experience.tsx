@@ -23,7 +23,11 @@ const experiences = [
         role: "Information System Security Engineer (ISSE)",
         date: "December 2022 - March 2024",
         details: [
-            "As an Information System Security Engineer in the Army, I worked on classified workstations—imaging them, troubleshooting drivers, and making sure users could connect on both NIPR and SIPR networks. I trained other soldiers on how to set up systems, especially during slower days, and we came up with small ways to speed up deployment. I handled account creation and permission assignments, enabling CAC and token-based logins depending on the network. My team also ran a lot of cable and fixed physical connectivity issues like broken VoIP lines or moving drops to new locations. We wrote a basic SOP before we rotated out to help the next team hit the ground running."
+            " As an Information System Security Engineer in the Army, I worked on classified workstations—imaging them, troubleshooting drivers, and making sure users could connect on both NIPR and SIPR networks. I trained other soldiers on how to set up systems, especially during slower days, and we came up with small ways to speed up deployment.",
+            
+            " I handled account creation and permission assignments, enabling CAC and token-based logins depending on the network. My team also ran a lot of cable and fixed physical connectivity issues like broken VoIP lines or moving drops to new locations.",
+            
+            " We wrote a basic SOP before we rotated out to help the next team hit the ground running."
         ]
     },
     {
@@ -32,7 +36,11 @@ const experiences = [
         role: "COMSEC Manager",
         date: "September 2021 to November 2022",
         details: [
-            "As the COMSEC Manager, I personally loaded encryption keys onto tactical radios using the SKL. I also explained the process to soldiers while we waited, answering questions about key placement and radio setup. We refreshed keys weekly, monthly, quarterly, and annually, including Firefly keys, and I kept logs to track what was issued or destroyed. I did spot checks and verified key handling using our credential system. If someone deleted a key, we could trace it back. I followed guidance from the brigade COMSEC lead and supported field exercises with timely key rotations to keep communication secure."
+            " As the COMSEC Manager, I personally loaded encryption keys onto tactical radios using the SKL. I also explained the process to soldiers while we waited, answering questions about key placement and radio setup.",
+            
+            " We refreshed keys weekly, monthly, quarterly, and annually, including Firefly keys, and I kept logs to track what was issued or destroyed.",
+            
+            " I did spot checks and verified key handling using our credential system. If someone deleted a key, we could trace it back. I followed guidance from the brigade COMSEC lead and supported field exercises with timely key rotations to keep communication secure."
         ]
     },
     {
@@ -41,7 +49,9 @@ const experiences = [
         role: "Network Security Administrator",
         date: "April 2020 to August 2021",
         details: [
-            "In this role, I installed and updated Cisco Catalyst switches and plugged in TACLANE devices as needed. I didn’t configure them in-depth, but I followed step-by-step procedures and learned a lot watching the more experienced folks work through the process. I handled user access and troubleshooting across classified systems. If something broke, I was the first person many came to. I also worked directly with Tier 3 and Area IV teams when we needed help with more advanced networking issues."
+            " In this role, I installed and updated Cisco Catalyst switches and plugged in TACLANE devices as needed. I didn’t configure them in-depth, but I followed step-by-step procedures and learned a lot watching the more experienced folks work through the process.",
+            
+            " I handled user access and troubleshooting across classified systems. If something broke, I was the first person many came to. I also worked directly with Tier 3 and Area IV teams when we needed help with more advanced networking issues."
         ]
     },
     {
@@ -50,7 +60,13 @@ const experiences = [
         role: "IT Operations Manager",
         date: "March 2019 to March 2020",
         details: [
-            "I managed reimaging for over 200 systems using our standard image, fixing user-side and hardware issues as they came up. I monitored outages using Spectrum OS and could see where downtime was happening, how severe it was, and who needed to be informed. When networks had to go down for maintenance, I was the one coordinating with users to make sure their systems were powered off ahead of time. I also issued access badges and helped keep track of SCIF entry to make sure only the right folks had access."
+            " I managed reimaging for over 200 systems using our standard image, fixing user-side and hardware issues as they came up.",
+            
+            " I monitored outages using Spectrum OS and could see where downtime was happening, how severe it was, and who needed to be informed.",
+            
+            " When networks had to go down for maintenance, I was the one coordinating with users to make sure their systems were powered off ahead of time.",
+            
+            " I also issued access badges and helped keep track of SCIF entry to make sure only the right folks had access."
         ]
     }
 ];
