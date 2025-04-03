@@ -2,70 +2,66 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 40px;
-    padding-bottom: 60px;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
 }
 
-/* ICON SECTION */
+/* Contact Icons */
 .contact-icons {
     display: flex;
+    gap: 30px; /* spacing between icons */
     justify-content: center;
-    align-items: center;
-    gap: 50px; /* wider spacing */
-    margin-bottom: 40px; /* more space between icons and image */
+    margin-bottom: 30px;
     margin-top: 20px;
 }
 
-/* IMAGE */
+/* Headshot Image */
 .image {
-    width: 420px; /* slightly larger image */
+    width: 420px;
     height: auto;
     border-radius: 12px;
-    margin-bottom: 16px; /* tighter connection to name */
+    margin-bottom: 20px;
 }
 
-/* NAME & TAGLINE */
+/* Name */
+.name {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Subheading / Tagline */
+.tagline {
+    font-size: 16px;
+    font-style: italic;
+    color: #ccc;
+    margin-bottom: 40px;
+}
+
+/* About Me Text */
 .text {
-    text-align: center;
     max-width: 700px;
     font-size: 18px;
-    margin-bottom: 30px;
-}
-
-.text h2 {
-    margin: 0;
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.text h3 {
-    margin: 4px 0 20px;
-    font-style: italic;
-    font-size: 16px;
-    color: #b3b3b3;
-}
-
-/* ABOUT ME PARAGRAPH */
-.text p {
-    margin: 0 auto;
-    max-width: 750px;
-    line-height: 1.6;
-    text-align: center;
+    line-height: 1.7;
     padding: 0 20px;
 }
 
-/* RESPONSIVENESS */
-@media (max-width: 600px) {
-    .contact-icons {
-        flex-wrap: wrap;
-        gap: 30px;
-    }
-
+/* Responsive layout */
+@media (max-width: 768px) {
     .image {
         width: 90%;
     }
 
-    .text p {
+    .text {
+        font-size: 16px;
         padding: 0 10px;
+    }
+
+    .contact-icons {
+        flex-direction: row;
+        gap: 20px;
+        flex-wrap: wrap;
     }
 }
