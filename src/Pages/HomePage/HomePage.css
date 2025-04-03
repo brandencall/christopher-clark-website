@@ -15,49 +15,32 @@ body, html {
     text-align: center;
 }
 
-/* Profile Image + Icons container */
-.profile-wrapper {
-    position: relative;
-    display: inline-block;
-    margin-bottom: 25px;
+/* Icon row with spacing */
+.icon-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px; /* Match the image width */
+    margin-bottom: 20px;
 }
 
-/* Floating corner icons */
-.icon-corner {
-    position: absolute;
+.icon-row a {
+    color: white;
     font-size: 32px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    border-radius: 50%;
-    z-index: 10;
     transition: transform 0.2s ease;
-}
-
-.icon-corner.left {
-    top: -20px;
-    left: -20px;
-}
-
-.icon-corner.right {
-    top: -20px;
-    right: -20px;
-}
-
-.icon-corner:hover {
-    transform: scale(1.1);
-}
-
-.icon-corner a {
-    color: white;
     text-decoration: none;
+}
+
+.icon-row a:hover {
+    transform: scale(1.1);
 }
 
 /* Headshot Image */
 .image {
-    width: 460px;
+    width: 500px;
     height: auto;
     border-radius: 12px;
+    margin-bottom: 25px;
 }
 
 /* Name */
@@ -67,7 +50,7 @@ body, html {
     margin-bottom: 6px;
 }
 
-/* Tagline */
+/* Subheading / Tagline */
 .tagline {
     font-size: 17px;
     font-style: italic;
@@ -89,23 +72,15 @@ body, html {
         width: 90%;
     }
 
+    .icon-row {
+        flex-wrap: wrap;
+        width: 90%;
+        justify-content: space-around;
+        gap: 20px;
+    }
+
     .text {
         font-size: 16px;
         padding: 0 12px;
-    }
-
-    .icon-corner {
-        font-size: 26px;
-        padding: 8px;
-    }
-
-    .icon-corner.left {
-        top: -18px;
-        left: -15px;
-    }
-
-    .icon-corner.right {
-        top: -18px;
-        right: -15px;
     }
 }
