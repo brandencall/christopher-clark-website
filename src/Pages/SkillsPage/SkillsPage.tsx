@@ -98,7 +98,7 @@ function SkillsPage() {
                     </div>
                     <p className="education-location">Liberty University | Lynchburg, Virginia(VA)</p>
                     <ul className="education-list">
-                        <li>Developed a solid foundation in network security, database management, and system administration through courses like Network Security, Database Management Systems, and System Administration.</li>
+                        <li>Developed a solid foundation in network security, database management, and system administration including Network Security, Database Systems, and System Administration.</li>
                         <li>Gained hands-on experience with Oracle database design and administration, enhancing skills in data organization and retrieval.</li>
                         <li>Explored information security principles and cybersecurity practices, preparing for roles that require safeguarding organizational data.</li>
                         <li>Acquired practical knowledge of Linux operating systems and digital forensics, contributing to a comprehensive understanding of system operations and security measures.</li>
@@ -111,10 +111,10 @@ function SkillsPage() {
                     </div>
                     <p className="education-location">Champlain College | Burlington, Vermont (VT)</p>
                     <ul className="education-list">
-                        <li>Description of the education</li>
-                        <li>Description of the education</li>
-                        <li>Description of the education</li>
-                        <li>Description of the education</li>
+                        <li>Studied advanced cybersecurity concepts including intrusion detection, ethical hacking, mobile security, and cloud computing protection.</li>
+                        <li>Used Python scripting to automate security workflows and enhance response capabilities in real-world scenarios.</li>
+                        <li>Built hands-on experience securing systems and networks against evolving threats across traditional and cloud environments.</li>
+                        <li>Prepared to support modern security operations teams through technical proficiency in threat detection, analysis, and remediation.</li>
                     </ul>
                 </div>
                 <div className="education-card">
@@ -124,10 +124,10 @@ function SkillsPage() {
                     </div>
                     <p className="education-location">Champlain College | Burlington, Vermont (VT)</p>
                     <ul className="education-list">
-                        <li>Description of the education</li>
-                        <li>Description of the education</li>
-                        <li>Description of the education</li>
-                        <li>Description of the education</li>
+                        <li>"Trained in securing, acquiring, and analyzing digital evidence using industry-standard forensic tools and processes.</li>
+                        <li>Explored anti-forensics, operating system forensics, and file recovery to trace user behavior and recover hidden data.</li>
+                        <li>Studied cybercrime, criminal law, and legal evidence handling to ensure forensically sound investigation practices.</li>
+                        <li>Built a foundation for supporting law enforcement or corporate investigations into insider threats, policy violations, or cyber incidents.</li>
                     </ul>
                 </div>
             </div>
