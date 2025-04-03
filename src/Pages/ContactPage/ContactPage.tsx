@@ -4,7 +4,7 @@ import { FaSchoolFlag } from "react-icons/fa6";
 import { FaPhoneFlip } from "react-icons/fa6";
 import { FaGlobeAmericas } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import ContactIcons from "../../Components/ContanctIcons";
+import ContactIcons from "../../Components/ContactIcons";
 
 function ContactPage() {
     return (
