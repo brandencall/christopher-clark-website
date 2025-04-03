@@ -6,18 +6,34 @@ function SkillsPage() {
     return (
         <div className="skill-page-container">
             <div>
-            <h1 className="section-header">Tools and Technologies</h1>
+                <h1 className="section-header">Tools and Technologies</h1>
                 <div className="skill-container">
-                    <h2 className="skill-title">Skill Title 1</h2>
-                    <p className="skill-description">Blah</p>
+                    <h2 className="skill-title">Project & Collaboration</h2>
+                    <p className="skill-description">Microsoft Project, Microsoft Excel, Outlook, Visio, SOP Documentation, DoD Safe, ARL Safe</p>
                 </div>
                 <div className="skill-container">
-                    <h2 className="skill-title">Skill Title 2</h2>
-                    <p className="skill-description">Blah</p>
+                    <h2 className="skill-title">Cybersecurity & Compliance</h2>
+                    <p className="skill-description">ACAS, SCAP, STIG Viewer, Security Scripting with Python, RMF Support, Compliance Tracking</p>
                 </div>
                 <div className="skill-container">
-                    <h2 className="skill-title">Skill Title 3</h2>
-                    <p className="skill-description">Blah</p>
+                    <h2 className="skill-title">Virtualization & Infrastructure</h2>
+                    <p className="skill-description">VMware vSphere, ESXi, Dell iDRAC, BMC, VxRail</p>
+                </div>
+                <div className="skill-container">
+                    <h2 className="skill-title">Networking & System Tools</h2>
+                    <p className="skill-description">Cisco Catalyst 3850, TACLANE, Windows Server Admin, Spectrum OS, Command Line Utilities</p>
+                </div>
+                <div className="skill-container">
+                    <h2 className="skill-title">Languages & Scripting</h2>
+                    <p className="skill-description">Python, SQL (Oracle + Relational DB), HTML (basic), Bash (basic)</p>
+                </div>
+                <div className="skill-container">
+                    <h2 className="skill-title">Operating Systems</h2>
+                    <p className="skill-description">Windows 10/11, Windows Server, Linux (CentOS/Ubuntu), Android (Mobile Security)</p>
+                </div>
+                <div className="skill-container">
+                    <h2 className="skill-title">Cloud & Emerging Tech</h2>
+                    <p className="skill-description">Cloud Security Concepts, Blockchain (Intro), Spectrum Monitoring Tools</p>
                 </div>
                 <h1 className="section-header">Project Management Skills</h1>
                 <div className="skill-container">
