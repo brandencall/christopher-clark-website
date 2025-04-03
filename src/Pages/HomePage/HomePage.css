@@ -20,7 +20,7 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 45px; /* Adjust spacing between icons */
+    gap: 60px; /* Adjust spacing between icons */
     margin-bottom: 50px;
     margin-top: 10px;
     flex-wrap: wrap;
@@ -47,10 +47,6 @@ body, html {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-}
-
-.icon-row a:not(:last-child) {
-    margin-right: 30px; /* Adds spacing between icons */
 }
 
 /* Headshot Image */
