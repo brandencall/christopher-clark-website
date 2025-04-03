@@ -3,12 +3,12 @@
     margin: auto;
 }
 
-.experiecne-button-container {
+.experience-button-container {
     display: flex;
     flex-direction: row;
 }
 
-.experiecne-button-container button {
+.experience-button-container button {
     background: none;
     border: none;
     padding: 10px;
@@ -20,7 +20,7 @@
     text-align: center;
 }
 
-.experiecne-button-container button:hover, .experiecne-button-container button.active {
+.experience-button-container button:hover, .experiecne-button-container button.active {
     border-bottom: 1px solid #ddd; 
 }
 
