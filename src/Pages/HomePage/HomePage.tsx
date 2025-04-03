@@ -15,6 +15,8 @@ function HomePage() {
             />
 
             <h2 className="name">Christopher Clark</h2>
+            <h4 className="tagline">Systems Administrator | Future IT Project Manager</h4>
+
 
             <div className="text">
                 <p>
