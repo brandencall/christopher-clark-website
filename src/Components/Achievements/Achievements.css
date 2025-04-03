@@ -7,25 +7,35 @@
     padding: 20px;
   }
 
-.achievement-grid-item {
+  .achievement-grid-item {
     background-color: #3A3B3C;
     padding: 20px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* optional subtle depth */
-}
-    height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-  }
+    justify-content: flex-start; /* Align content to the top */
+    align-items: center;
+    min-height: 320px; /* Force all boxes to be same height */
+    height: 100%;
+}
 
-  .achievement-grid-item img {
-    max-height: 140px;
+.achievement-grid-item img {
+    height: 100px;
     width: auto;
-    margin-bottom: 15px;
     object-fit: contain;
-  }
+    margin-bottom: 15px;
+}
+
+.achievement-grid-item h3 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.4;
+    margin: auto 0 0 0; /* Push text to bottom if space allows */
+    padding-top: 10px;
+}
 
 .pdf-link{
     text-decoration: none;
