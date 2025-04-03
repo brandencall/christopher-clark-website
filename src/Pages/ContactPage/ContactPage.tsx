@@ -17,15 +17,16 @@ function ContactPage() {
                 <div className="body-left-container">
                     <p className="body-text"><MdEmail className="body-logo" />Email</p>
                     <p className="body-text"><FaPhoneFlip className="body-logo" />Call</p>
-                    <p className="body-text"><FaPhoneFlip className="body-logo" />Text</p>
                     <p className="body-text"><IoLocation className="body-logo" />Location</p>
                     <p className="body-text"><FaSchoolFlag className="body-logo" />Education</p>
                     <p className="body-text"><FaGlobeAmericas className="body-logo" />Languages</p>
                 </div>
                 <div className="body-right-container">
                     <p className="body-text">christophersjgrclark@gmail.com</p>
-                    <p className="body-text">(915)291-7016</p>
-                    <p className="body-text">(915)247-8178</p>
+                    <p className="body-text">
+                        Call: (915)291-7016 <span className="phone-icon">📞</span><br />
+                        Text: (915)247-8178 <span className="phone-icon">📞</span>
+                    </p>
                     <p className="body-text">Albuquerque, New Mexico</p>
                     <p className="body-text">University of New Mexico (UNM), Liberty University, and Champlain College</p>
                     <p className="body-text">English</p>
