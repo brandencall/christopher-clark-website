@@ -2,92 +2,70 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-    padding: 60px 20px;
-    min-height: 100vh;
+    padding-top: 40px;
+    padding-bottom: 60px;
 }
 
-/* Contact Icons */
+/* ICON SECTION */
 .contact-icons {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px; /* Spread them apart more */
-    flex-wrap: wrap;
-    margin-bottom: 30px;
+    gap: 50px; /* wider spacing */
+    margin-bottom: 40px; /* more space between icons and image */
+    margin-top: 20px;
 }
 
-/* Headshot */
+/* IMAGE */
 .image {
-    width: 450px; /* Try 450 instead of 350 */
+    width: 420px; /* slightly larger image */
     height: auto;
     border-radius: 12px;
-    object-fit: cover;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px; /* tighter connection to name */
+}
+
+/* NAME & TAGLINE */
+.text {
+    text-align: center;
+    max-width: 700px;
+    font-size: 18px;
     margin-bottom: 30px;
 }
 
-/* Name */
-.name {
-    font-size: 30px;
-    font-weight: 600;
-    margin-bottom: 10px;
-    color: #fff;
-    text-align: center;
+.text h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
 }
 
-/* Tagline */
-.tagline {
-    font-size: 18px;
-    font-weight: 400;
-    color: #aaa;
-    margin-top: -15px;
-    margin-bottom: 35px;
-    text-align: center;
+.text h3 {
+    margin: 4px 0 20px;
     font-style: italic;
-    letter-spacing: 0.3px;
+    font-size: 16px;
+    color: #b3b3b3;
 }
 
-/* About Me Text */
-.text {
-    max-width: 800px;
-    font-size: 18px;
-    line-height: 1.8;
-    color: #ccc;
-    text-align: center;
-    padding: 0 10px;
-}
-
+/* ABOUT ME PARAGRAPH */
 .text p {
-    margin-bottom: 25px;
+    margin: 0 auto;
+    max-width: 750px;
+    line-height: 1.6;
+    text-align: center;
+    padding: 0 20px;
 }
 
-/* Responsive Layout */
+/* RESPONSIVENESS */
 @media (max-width: 600px) {
-    .container {
-        padding: 30px 15px;
+    .contact-icons {
+        flex-wrap: wrap;
+        gap: 30px;
     }
 
     .image {
-        width: 250px;
+        width: 90%;
     }
 
-    .name {
-        font-size: 24px;
-    }
-
-    .tagline {
-        font-size: 16px;
-    }
-
-    .text {
-        font-size: 16px;
-    }
-
-    .contact-icons {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-        margin-bottom: 30px;
+    .text p {
+        padding: 0 10px;
     }
 }
