@@ -1,14 +1,18 @@
 .achievement-grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Force 3 columns */
-    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* spacing between cards */
+    max-width: 1080px; /* 👈 keeps grid at a manageable width */
+    margin: 0 auto; /* 👈 centers the grid */
+    padding: 20px; /* 👈 adds padding around the entire section */
 }
 
-.achievement-grid-item{
-    background-color: #3A3B3C; /* Dark background */
+.achievement-grid-item {
+    background-color: #3A3B3C;
     padding: 20px;
     text-align: center;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* optional subtle depth */
 }
 
 .pdf-link{
@@ -16,3 +20,14 @@
     color: white;
 }
 
+@media (max-width: 900px) {
+    .achievement-grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .achievement-grid-container {
+        grid-template-columns: 1fr;
+    }
+}
