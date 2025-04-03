@@ -11,7 +11,7 @@ function HomePage() {
 
     return (
         <div className={`container ${fadeIn ? "fade-in" : ""}`}>
-            <div className="icon-row fade-in-up" style={{ animationDelay: '0.2s' }}>
+            <div className="icon-row fade-in-up" style={{ animationDelay: '0.3s' }}>
                 <ContactIcons />
             </div>
 
@@ -22,15 +22,16 @@ function HomePage() {
                 style={{ animationDelay: '0.4s' }}
             />
 
-            <h2 className="name fade-in-up" style={{ animationDelay: '0.6s' }}>
+            <h2 className="name fade-in-up" style={{ animationDelay: '0.9s' }}>
                 Christopher Clark
             </h2>
-            <h3 className="tagline fade-in-up" style={{ animationDelay: '0.8s' }}>
+            <h3 className="tagline fade-in-up" style={{ animationDelay: '1.2s' }}>
                 Systems Administrator | Future IT Project Manager
             </h3>
 
-            {/* About Me Section */}
-            <div className="text">
+            <div className="text fade-in-up" style={{ animationDelay: '1.5s' }}>
+                {/* About Me content */}
+            </div>
                 <p>
                 My journey in IT began in July 2018 when I enlisted in the U.S. Army as a 25B, Information Technology Specialist. I didn’t know where that oath would take me, but I was ready to build something bigger than myself. From my early days in Basic Training and AIT, to being stationed in South Korea, I was immediately placed in fast-paced environments that demanded problem-solving, adaptability, and accountability. By 2019, I was promoted to Private First Class and entrusted with the role of IT Operations Manager, a rare opportunity at that level. Those early experiences taught me that leadership isn't tied to rank, but to reliability.
                 </p>
