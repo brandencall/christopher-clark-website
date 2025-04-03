@@ -8,12 +8,12 @@ function SkillsPage() {
             <div>
                 <h1 className="section-header">Skills</h1>
                 <div className="skill-container">
-                    <h2 className="skill-title">Skill Title</h2>
-                    <p className="skill-description">A bunch of skills listed out here like Kevins Portfolio</p>
+                    <h2 className="skill-title">Agile Concepts & Scrum Fundamentals</h2>
+                    <p className="skill-description">Completed Certified ScrumMaster (CSM) training with hands-on exercises. Familiar with ceremonies like Sprint Planning and Daily Stand-ups, and how Agile supports iterative delivery and team collaboration.</p>
                 </div>
                 <div className="skill-container">
-                    <h2 className="skill-title">Skill Title 2</h2>
-                    <p className="skill-description">A bunch of skills listed out here like Kevins Portfolio</p>
+                    <h2 className="skill-title">Waterfall Exposure</h2>
+                    <p className="skill-description">Supported projects with clear requirements, timelines, and documentation—a traditional sequential model aligned with Waterfall methodology.</p>
                 </div>
                 <div className="skill-container">
                     <h2 className="skill-title">Skill Title 3</h2>

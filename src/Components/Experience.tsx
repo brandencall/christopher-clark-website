@@ -8,12 +8,7 @@ const experiences = [
         role: "Systems Administrator II",
         date: "November 2023 - Present",
         details: [
-            "Executed the acquisition and deployment of critical security updates and plugins, executing weekly update cycles for ACAS systems and improving system defense across corporate IT architecture by 40%.",
-            "Assessed 500+ Cross Domain Solutions (CDS) requests annually, ensuring secure file transfers and exact data documentation, achieving an impeccable record of data integrity and secrecy.",
-            "Managed deployment of VxRail and Azure-based virtualized infrastructure on NIPR/SIPR networks, integrating vSphere and WAC/iDrac for enhanced RBAC security, reducing manual intervention by 60% and increasing system integrity by 32%.",
-            "Led the implementation of advanced system administration protocols, ensuring 99.5% service uptime through streamlined operations. Reduced downtime by 45%, bolstered computing environment security by mitigating potential threats by 70%.",
-            "Controlled the upkeep of critical servers and Storage Area Networks (SAN) across diverse networks, enhancing data accessibility and cutting downtime by 50% for the SA Group.",
-            "Ensured robust infrastructure security compliance by executing detailed IA processes; arranged RMF tasks, documentation, and system accreditation, maintaining ATO for over 150 systems, reducing security incidents by 25%."
+            "When I first joined TekSynap, I was handed the responsibility of weekly ACAS patching. What started as something I was trained on quickly became something I owned. Every week I handled updates and helped reduce critical vulnerabilities in the environment by staying consistent with plugin deployments. Over time, that effort helped cut high-risk findings by around 25%. I also processed hundreds of Cross Domain Solution (CDS) requests, carefully reviewing COR approvals and securely moving files between NIPR and SIPR using DoD Safe or ARL Safe. Sometimes the files were too large, so I compressed and packaged them for transfer. I also handled eBook media transfers and made sure everything went where it needed to without fail. On the infrastructure side, I worked hands-on with vSphere and iDRAC, using procedures given to me by senior engineers. As I repeated the process, I got better and more confident deploying virtual machines and adjusting configurations. I also used BMC and iDRAC to monitor server health across Dell, VxRail, and Azure systems, and helped reduce system downtime significantly for our SA team. I ran regular ACAS scans, analyzed findings using SCAP tools and STIG Viewer, and documented everything clearly. I was able to speak to why vulnerabilities were open, what was inherited, and helped support RMF compliance through accurate reporting."
         ]
     },
     {
@@ -22,10 +17,7 @@ const experiences = [
         role: "Information System Security Engineer (ISSE)",
         date: "December 2022 - March 2024",
         details: [
-            "Devised a systematic workstation build procedure, guaranteeing current systems and enhancing team efficiency of information technology teams by 45%, cutting setup times by 55%, and lowering mistakes by 65%, thereby accelerating deployment operations.",
-            "Implemented a classified credential system that bolstered user access control, strictly enforcing security protocols, and leading to a 40% reduction in unauthorized access incidents within the first six months.",
-            "Conducted thorough examinations of server rooms to maintain stringent standards for sensitive data equipment, guaranteeing information assurance compliance and fortifying network security, which decreased potential data breaches by 25%.",
-            "Collaborated with security teams to swiftly address incidents, safeguarding mission-critical assets, reducing data breach incidents by 40%, and enhancing overall system integrity."
+            "As an Information System Security Engineer in the Army, I worked on classified workstations—imaging them, troubleshooting drivers, and making sure users could connect on both NIPR and SIPR networks. I trained other soldiers on how to set up systems, especially during slower days, and we came up with small ways to speed up deployment. I handled account creation and permission assignments, enabling CAC and token-based logins depending on the network. My team also ran a lot of cable and fixed physical connectivity issues like broken VoIP lines or moving drops to new locations. We wrote a basic SOP before we rotated out to help the next team hit the ground running."
         ]
     },
     {
@@ -34,9 +26,7 @@ const experiences = [
         role: "COMSEC Manager",
         date: "September 2021 to November 2022",
         details: [
-            "Orchestrated COMSEC operations and contracts, including key technology management and sensitive equipment oversight; facilitated encryption key loading training for 50+ vehicles, ensuring secure communication channels and optimal operational readiness.",
-            "Catalogued and led detailed COMSEC and HRH training for 200 brigade personnel; ensured 100% compliance with security protocols, enhancing the brigade's security posture within a quarter.",
-            "Implemented comprehensive security policies from the COMSEC commander, achieving 100% regulatory compliance and fortifying systems against cyber threats, leading to a 40% reduction in security incidents."
+            "As the COMSEC Manager, I personally loaded encryption keys onto tactical radios using the SKL. I also explained the process to soldiers while we waited, answering questions about key placement and radio setup. We refreshed keys weekly, monthly, quarterly, and annually, including Firefly keys, and I kept logs to track what was issued or destroyed. I did spot checks and verified key handling using our credential system. If someone deleted a key, we could trace it back. I followed guidance from the brigade COMSEC lead and supported field exercises with timely key rotations to keep communication secure."
         ]
     },
     {
@@ -45,9 +35,7 @@ const experiences = [
         role: "Network Security Administrator",
         date: "April 2020 to August 2021",
         details: [
-            "Developed and executed comprehensive user access control strategies, achieving 100% compliance with information management protocols, and halving unauthorized access incidents company wide.",
-            "Directed the detection, diagnosis, and resolution of complex software and network issues; coordinated with federal government Tier 3 supervisors and Area 4 network directors, enhancing system reliability and operational efficiency by 40%.",
-            "Deployed and maintained TACLANE devices and 100+ Cisco Catalyst 3850 PoE+ switches, achieving a 25% increase in network performance; spearheaded initiatives to upgrade network architecture for improved security and efficiency."
+            "In this role, I installed and updated Cisco Catalyst switches and plugged in TACLANE devices as needed. I didn’t configure them in-depth, but I followed step-by-step procedures and learned a lot watching the more experienced folks work through the process. I handled user access and troubleshooting across classified systems. If something broke, I was the first person many came to. I also worked directly with Tier 3 and Area IV teams when we needed help with more advanced networking issues."
         ]
     },
     {
@@ -56,9 +44,7 @@ const experiences = [
         role: "IT Operations Manager",
         date: "March 2019 to March 2020",
         details: [
-            "Spearheaded critical network disconnection missions, ensuring operational continuity; reduced downtime by 40% and maintained service levels, showcasing expertise in managing complex transitions with minimal disruption.",
-            "Administered continuous monitoring under Spectrum OS to swiftly identify and address network disturbances, reducing downtime by 40% and ensuring rapid resolution through constant communication across the chain of command.",
-            "Acted as SME for the re-imaging, debugging, and maintenance of 200 computer systems, ensuring optimal performance and reliability. Achieved a 45% improvement in service quality and continuity of critical IT projects."
+            "I managed reimaging for over 200 systems using our standard image, fixing user-side and hardware issues as they came up. I monitored outages using Spectrum OS and could see where downtime was happening, how severe it was, and who needed to be informed. When networks had to go down for maintenance, I was the one coordinating with users to make sure their systems were powered off ahead of time. I also issued access badges and helped keep track of SCIF entry to make sure only the right folks had access."
         ]
     }
 ];
