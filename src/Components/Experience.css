@@ -39,7 +39,7 @@
 }
 
 ul {
-    postion: relative;
+    position: relative;
     list-style: none;
 }
 .work-experience-list{
@@ -48,7 +48,7 @@ ul {
 
 .work-experience-list::before {
     content: '▶';
-    postion: absolute;
+    position: absolute;
     left: 0;
     margin-right: 5px;
 }
