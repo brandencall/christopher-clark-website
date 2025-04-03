@@ -88,7 +88,7 @@ function SkillsPage() {
                         <li>Building a robust foundation in project management principles, focusing on methodologies such as Agile and Waterfall to effectively lead technology-driven projects.</li>
                         <li>Engaging in courses like Innovative Product Development and Technology Program Management to understand the lifecycle of tech products from conception to market deployment.</li>
                         <li>Developing proficiency in analytical tools and techniques essential for data-driven decision-making and strategic planning in complex project environments.</li>
-                        <li>Complementing my MBA studies to seamlessly integrate business acumen with technical project management expertise, facilitating a holistic approach to IT project leadership.</li>
+                        <li>Complementing my MBA studies by integrating business acumen with technical project management expertise, creating a well-rounded approach to IT project leadership.</li>
                     </ul>
                 </div>
                 <div className="education-card">
@@ -98,10 +98,10 @@ function SkillsPage() {
                     </div>
                     <p className="education-location">Liberty University | Lynchburg, Virginia(VA)</p>
                     <ul className="education-list">
-                        <li>Description of the education</li>
-                        <li>Description of the education</li>
-                        <li>Description of the education</li>
-                        <li>Description of the education</li>
+                        <li>Developed a solid foundation in network security, database management, and system administration through courses like Network Security, Database Management Systems, and System Administration.</li>
+                        <li>Gained hands-on experience with Oracle database design and administration, enhancing skills in data organization and retrieval.</li>
+                        <li>Explored information security principles and cybersecurity practices, preparing for roles that require safeguarding organizational data.</li>
+                        <li>Acquired practical knowledge of Linux operating systems and digital forensics, contributing to a comprehensive understanding of system operations and security measures.</li>
                     </ul>
                 </div>
                 <div className="education-card">
