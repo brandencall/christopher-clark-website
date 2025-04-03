@@ -16,24 +16,25 @@ body, html {
 }
 
 /* Contact Icons - new layout */
-.icon-row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 45px; /* Adjust spacing between icons */
-    margin-bottom: 40px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-}
-
 .icon-row a {
     color: white;
     transition: transform 0.2s ease;
-    font-size: 28px;
+    font-size: 32px; /* Increased for better visual separation */
+    width: 48px;       /* Ensures spacing is respected */
+    height: 48px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.icon-row a:not(:last-child) {
+    margin-right: 30px; /* Adds spacing between icons */
+}
+
+
 .icon-row a:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
+    color: #66ccff; /* or any accent color */
 }
 
 /* Headshot Image */
