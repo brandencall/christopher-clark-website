@@ -37,6 +37,17 @@
     box-shadow: 0px 4px 30px rgba(0, 255, 255, 0.1); /* Soft cyan glow */
 }
 
+.skill-intro-text {
+    font-size: 1rem;
+    color: #ccc; /* subtle, soft gray */
+    margin-top: 0.5rem;
+    margin-bottom: 1.25rem;
+    text-align: center;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .education-card{
     max-width: 1000px;
     align-self: center;
