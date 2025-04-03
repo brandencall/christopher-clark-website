@@ -133,7 +133,7 @@ function SkillsPage() {
                 <div className="education-card">
                     <div className="education-card-head">
                         <h2 className="education-card-head-title">Information Technology Specialist (25B AIT)</h2>
-                        <p className="education-date">Jan 2021  - Aug 2021</p>
+                        <p className="education-date">Oct 2018 2021  - Mar 2019</p>
                     </div>
                     <p className="education-location">United States Army Signal School | Fort Eisenhower, Augusta, Georgia(GA)</p>
                     <ul className="education-list">
