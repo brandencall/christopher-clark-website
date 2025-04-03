@@ -1,22 +1,24 @@
-import ContactIcons from "../../Components/ContanctIcons";
+import { useEffect, useState } from "react";
 import "./HomePage.css";
 
 function HomePage() {
+    const [fadeIn, setFadeIn] = useState(false);
+
+    useEffect(() => {
+        setFadeIn(true);
+    }, []);
+
     return (
-        <div className="container">
-            {/* Contact Icons - updated class for better spacing */}
+        <div className={`container ${fadeIn ? "fade-in" : ""}`}>
+            {/* Contact Icons */}
             <div className="icon-row">
-                <ContactIcons />
+                {/* your icons */}
             </div>
 
-            {/* Profile Image */}
-            <img
-                src="/ChristopherClarkHeadShot.JPEG"
-                alt="Christopher Clark"
-                className="image"
-            />
+            {/* Image */}
+            <img src="/ChristopherClarkHeadShot.JPEG" alt="Christopher Clark" className="image" />
 
-            {/* Name and Tagline */}
+            {/* Name / Tagline */}
             <h2 className="name">Christopher Clark</h2>
             <h3 className="tagline">Systems Administrator | Future IT Project Manager</h3>
 
