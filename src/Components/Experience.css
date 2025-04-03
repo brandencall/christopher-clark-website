@@ -27,7 +27,7 @@
 }
 
 .experience-button-container button.active {
-    color: white;
+    color: white !important;
     font-weight: bold;
     border-bottom: 2px solid white;
 }
