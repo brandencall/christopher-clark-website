@@ -11,6 +11,7 @@
 .experience-button-container button {
     background: none;
     border: none;
+    color: white;
     padding: 10px;
     margin: 0px 5px 0px 5px;
     cursor: pointer;
@@ -20,7 +21,7 @@
     text-align: center;
 }
 
-.experience-button-container button:hover, .experiecne-button-container button.active {
+.experience-button-container button:hover, .experience-button-container button.active {
     border-bottom: 1px solid #ddd; 
 }
 
