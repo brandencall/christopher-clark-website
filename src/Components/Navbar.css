@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center; /* centers nav-container */
     align-items: center;
-    padding: 0 20px;
+    padding: 14px 0;
   }
   
   /* Wrapper for nav links */
@@ -36,5 +36,7 @@
   
   .nav-links li a:hover {
     color: #66ccff;
+    border-bottom: 2px solid #66ccff;
+    padding-bottom: 2px;
   }
   
