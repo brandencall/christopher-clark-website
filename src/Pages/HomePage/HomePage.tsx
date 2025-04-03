@@ -6,7 +6,9 @@ function HomePage() {
         <div className="container">
             {/* Contact Icons */}
             <div className="contact-icons">
-                <ContactIcons />
+                <div className="icon-wrapper">
+                    <ContactIcons />
+                </div>
             </div>
 
             {/* Profile Image */}
@@ -17,11 +19,11 @@ function HomePage() {
             />
 
             {/* Name and Tagline */}
-            <div className="text">
-                <h2 className="name">Christopher Clark</h2>
-                <h3 className="tagline">Systems Administrator | Future IT Project Manager</h3>
+            <h2 className="name">Christopher Clark</h2>
+            <h3 className="tagline">Systems Administrator | Future IT Project Manager</h3>
 
-                {/* About Me */}
+            {/* About Me */}
+            <div className="text">
                 <p>
                     I got my start in IT the day I enlisted in the U.S. Army as a 25B – Information Technology Specialist.
                     That decision launched me into a fast-paced world of troubleshooting, system support, and secure
