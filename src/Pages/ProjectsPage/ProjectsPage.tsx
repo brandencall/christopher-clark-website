@@ -6,21 +6,21 @@ function ProjectsPage() {
       name: "Tactical Operations Leadership Exercise",
       description: "Led a intense training exercise simulating a coordinated field operation, designed to assess leadership, communication, and mission execution under pressure.",
       role: "Squad Leader",
-      scope: "Planned and led a team through a simulated tactical mission. Assigned roles based on operational priorities, organized rehearsal drills, and finalized strategic checkpoints and timelines.",
+      scope: "Planned and led a team through a simulated tactical mission. Assigned roles based on operational priorities, organized rehearsal drills, and finalized strategic checkpoints and timelines",
       goals: "Demonstrate leadership under pressure by managing team movement, ensuring operational readiness, and delivering a successful mission brief and execution.",
       teamSize: "10",
       tools: "Operational planning tools, topographic maps, sand table model (TMK), task assignment frameworks",
       outcome: "Successfully executed the mission with full team cohesion and no critical errors. Demonstrated strength in time management, delegation, and situational leadership. Received top evaluation marks for planning accuracy, briefing clarity, and operational command."
     },
     {
-      name: "ACAS Automation",
-      description: "Streamlined ACAS scan scheduling and report generation.",
+      name: "Node Decommissioning and Cluster Rebuild",
+      description: "Assisted in a high-priority project to decommission and reconfigure ESXi nodes as part of a larger virtualization environment cleanup and rebuild effort.",
       role: "Systems Administrator",
-      scope: "Automate plugin updates, scanning routines, and STIG report packaging",
-      goals: "Cut scan cycle time in half and reduce manual input",
+      scope: "Supported the full removal and reintegration of VMware nodes, including iDRAC, ESXCLI, and DNS cleanup. Handled network configuration, hostname resets, and cluster readiness validation in coordination with senior staff",
+      goals: "Ensure clean node retirement with no residual artifacts, and rejoin rebuilt systems to the production cluster with validated settings and zero downtime.",
       teamSize: "2",
-      tools: "PowerShell, Python, STIG Viewer, DoD SCAP",
-      outcome: "Reduced scan-to-report time by 60% and increased scan frequency without overloading staff."
+      tools: "iDRAC, ESXCLI, VMware vSphere, DoD DNS, DoD Safe, Active Directory, Subnetting tools",
+      outcome: "Completed the full lifecycle of node decommissioning and rebuilds for multiple systems with no operational downtime or configuration issues. Ensured all host records, networking interfaces, and cluster integrations were validated and compliant with DoD standards."
     },
     // Add more placeholder projects as needed
   ];
