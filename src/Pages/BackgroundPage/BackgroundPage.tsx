@@ -33,10 +33,10 @@ function BackgroundPage() {
                 </div>
                 <p className="education-location">University of New Mexico (UNM) | Albuquerque, New Mexico (NM)</p>
                 <ul className="education-list">
-                    <li>Building a robust foundation in project management principles, focusing on methodologies such as Agile and Waterfall to effectively lead technology-driven projects.</li>
-                    <li>Engaging in courses like Innovative Product Development and Technology Program Management to understand the lifecycle of tech products from conception to market deployment.</li>
-                    <li>Developing proficiency in analytical tools and techniques essential for data-driven decision-making and strategic planning in complex project environments.</li>
-                    <li>Complementing my MBA studies by integrating business acumen with technical project management expertise, creating a well-rounded approach to IT project leadership.</li>
+                    <li>Learning how to lead technical projects by building a strong foundation in both Agile and Waterfall project management methods.</li>
+                    <li>Taking courses like Innovative Product Development and Technology Program Management to understand how tech products move from concept to deployment.</li>
+                    <li>Getting hands-on with analytical tools and strategies that support data-driven decisions and help manage complex projects with tighter focus and better results.</li>
+                    <li>Pairing this degree with my MBA to bring together business strategy and technical project leadership in a way that fits how real IT projects actually run.</li>
                 </ul>
             </div>
 
@@ -47,10 +47,10 @@ function BackgroundPage() {
                 </div>
                 <p className="education-location">Liberty University | Lynchburg, Virginia (VA)</p>
                 <ul className="education-list">
-                    <li>Developed a solid foundation in network security, database management, and system administration including Network Security, Database Systems, and System Administration.</li>
-                    <li>Gained hands-on experience with Oracle database design and administration, enhancing skills in data organization and retrieval.</li>
-                    <li>Explored information security principles and cybersecurity practices, preparing for roles that require safeguarding organizational data.</li>
-                    <li>Acquired practical knowledge of Linux operating systems and digital forensics, contributing to a comprehensive understanding of system operations and security measures.</li>
+                    <li>Built a strong foundation in core IT areas including network security, system administration, and database management.</li>
+                    <li>Gained hands-on experience designing and managing Oracle databases, with a focus on organizing and retrieving data efficiently.</li>
+                    <li>Studied key cybersecurity principles and practices, preparing for roles that require protecting systems and sensitive information.</li>
+                    <li>Worked with Linux and explored digital forensics, sharpening my ability to understand how systems run and how to secure them.</li>
                 </ul>
             </div>
 
@@ -61,10 +61,10 @@ function BackgroundPage() {
                 </div>
                 <p className="education-location">Champlain College | Burlington, Vermont (VT)</p>
                 <ul className="education-list">
-                    <li>Studied advanced cybersecurity concepts including intrusion detection, ethical hacking, mobile security, and cloud computing protection.</li>
-                    <li>Used Python scripting to automate security workflows and enhance response capabilities in real-world scenarios.</li>
-                    <li>Built hands-on experience securing systems and networks against evolving threats across traditional and cloud environments.</li>
-                    <li>Prepared to support modern security operations teams through technical proficiency in threat detection, analysis, and remediation.</li>
+                    <li>Studied advanced cybersecurity topics like intrusion detection, ethical hacking, mobile security, and cloud defense strategies.</li>
+                    <li>Used Python to automate security tasks and improve how teams respond to incidents in real-world environments.</li>
+                    <li>Gained hands-on experience securing both on-prem and cloud systems against evolving threats.</li>
+                    <li>Built the technical skills needed to support security operations teams through threat detection, analysis, and incident response.</li>
                 </ul>
             </div>
 
@@ -75,10 +75,10 @@ function BackgroundPage() {
                 </div>
                 <p className="education-location">Champlain College | Burlington, Vermont (VT)</p>
                 <ul className="education-list">
-                    <li>Trained in securing, acquiring, and analyzing digital evidence using industry-standard forensic tools and processes.</li>
-                    <li>Explored anti-forensics, operating system forensics, and file recovery to trace user behavior and recover hidden data.</li>
-                    <li>Studied cybercrime, criminal law, and legal evidence handling to ensure forensically sound investigation practices.</li>
-                    <li>Built a foundation for supporting law enforcement or corporate investigations into insider threats, policy violations, or cyber incidents.</li>
+                    <li>Trained to secure, collect, and analyze digital evidence using industry-standard forensic tools and methods.</li>
+                    <li>Learned how to trace user behavior and recover deleted or hidden data through file recovery, OS forensics, and anti-forensics techniques.</li>
+                    <li>Studied cybercrime and legal evidence handling to ensure investigations meet chain-of-custody and admissibility standards.</li>
+                    <li>Built the skills to support law enforcement and corporate teams investigating insider threats, policy violations, and cyber incidents.</li>
                 </ul>
             </div>
 
@@ -89,10 +89,10 @@ function BackgroundPage() {
                 </div>
                 <p className="education-location">United States Army Signal School | Fort Eisenhower, Augusta, Georgia (GA)</p>
                 <ul className="education-list">
-                    <li>Completed U.S. Army Advanced Individual Training (AIT) for the 25B MOS, developing foundational skills in client operating systems, network security, and system administration.</li>
-                    <li>Received hands-on training in hardware, Exchange Server, Windows Server, and wide area networks—learning to install, operate, and maintain critical IT infrastructure under mission-focused conditions.</li>
-                    <li>Gained practical experience with routing, switching, and troubleshooting techniques applicable to help desk, NOC, and field support environments.</li>
-                    <li>Built a strong understanding of information technology essentials, preparing to support and secure military and enterprise-level systems in high-availability environments.</li>
+                    <li>Completed U.S. Army Advanced Individual Training (AIT) for the 25B MOS, gaining hands-on experience with client operating systems, network security, and system administration.</li>
+                    <li>Trained directly on hardware, Exchange Server, Windows Server, and wide area networks in mission-ready environments focused on uptime and reliability.</li>
+                    <li>Built practical skills in routing, switching, and troubleshooting to support help desk, NOC, and field operations.</li>
+                    <li>Developed a strong baseline in IT essentials, preparing to support and secure both military and enterprise systems under high-stakes conditions.</li>
                 </ul>
             </div>
 
