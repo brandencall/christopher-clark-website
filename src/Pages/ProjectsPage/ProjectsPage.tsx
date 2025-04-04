@@ -22,7 +22,6 @@ function ProjectsPage() {
       tools: "iDRAC, ESXCLI, VMware vSphere, DoD DNS, DoD Safe, Active Directory, Subnetting tools",
       outcome: "Completed the full lifecycle of node decommissioning and rebuilds for multiple systems with no operational downtime or configuration issues. Ensured all host records, networking interfaces, and cluster integrations were validated and compliant with DoD standards."
     },
-    // Add more placeholder projects as needed
   ];
 
   return (
