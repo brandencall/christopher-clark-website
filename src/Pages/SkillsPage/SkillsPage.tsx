@@ -45,49 +45,49 @@ function SkillsPage() {
 
                 <div className="skill-container">
                     <h2 className="skill-title">Agile Concepts & Scrum Fundamentals</h2>
-                    <p className="skill-description">I completed Certified ScrumMaster® (CSM) training, which gave me a solid foundation in Agile frameworks. I understand the purpose of sprints, the value of daily stand-ups, and how iterative delivery helps teams adapt and respond to change. While I haven’t worked in a formally labeled “Agile shop,” I’ve seen these principles in action—especially when priorities shifted and we had to adjust quickly in real-world environments.</p>
+                    <p className="skill-description">I completed Certified ScrumMaster® (CSM) training and gained a solid understanding of Agile principles. I know how sprints, daily stand-ups, and iterative delivery keep teams aligned and responsive to change. While I haven't worked in a formal “Agile shop,” I've applied these concepts in real-world scenarios where priorities shift and you have to adapt fast.</p>
                 </div>
 
                 <div className="skill-container">
                     <h2 className="skill-title">Task Ownership & Accountability</h2>
-                    <p className="skill-description">Even when I wasn’t the “official” lead, I was trusted to own key tasks—like ACAS patching, server monitoring, or secure file transfers. I took initiative, repeated processes until I mastered them, and kept things running without needing someone to constantly check in. That mindset of “own it, finish it, improve it” is something I carry into every role.</p>
+                    <p className="skill-description">I've been trusted with key responsibilities like ACAS patching, server monitoring, and secure file transfers. I took ownership, learned the processes inside out, and kept things running without needing oversight. My approach has always been to take the lead, complete the task, and look for ways to make it better.</p>
                 </div>
 
                 <div className="skill-container">
                     <h2 className="skill-title">Knowledge Transfer & SOP Development</h2>
-                    <p className="skill-description">I’ve written turnover SOPs, walked teammates through workflows, and made sure processes didn’t get lost in rotation. I know how important documentation is—not just for compliance, but for making sure the next person is set up for success. That’s a skill that directly applies to project management handoffs and scaling knowledge across teams.</p>
+                    <p className="skill-description">I've written clear SOPs, walked teammates through technical workflows, and made sure nothing important got lost during transitions. I know how to document processes in a way that helps others pick up the task and keep things moving. That mindset carries directly into project handoffs and team scaling.</p>
                 </div>
 
                 <div className="skill-container">
                     <h2 className="skill-title">Supporting Compliance-Driven Projects</h2>
-                    <p className="skill-description">I’ve worked on systems that required tight compliance—where everything from scans to documentation needed to be done right. I didn’t write the POA&Ms, but I helped generate the raw material by running STIGs, ACAS scans, and maintaining patch schedules. I learned how to support security-focused projects and keep the paper trail clean.</p>
+                    <p className="skill-description">I've supported systems that had to meet strict compliance requirements. I ran ACAS scans, used STIG Viewer, kept patch schedules updated, and documented findings clearly. I wasn't the one writing POA&Ms, but I delivered the data that fed into them. I made sure reporting was accurate and deadlines were met.</p>
                 </div>
 
                 <div className="skill-container">
                     <h2 className="skill-title">Workflow & Timeline Coordination</h2>
-                    <p className="skill-description">In both Army and civilian roles, I’ve had to coordinate with teams to meet deployment timelines or mission deadlines. Whether it was key loading before an exercise or system reimaging before handover, I learned to keep things on track and adjust when unexpected issues popped up—something that carries over naturally into managing project timelines and deliverables.</p>
+                    <p className="skill-description">Whether it was loading keys before a field mission or reimaging systems before a turnover, I worked with teams to hit deadlines and stay mission-ready. When plans changed, I adjusted without delay. Keeping projects on track is second nature to me.</p>
                 </div>
 
                 <div className="skill-container">
                     <h2 className="skill-title">Cross-Functional Communication</h2>
-                    <p className="skill-description">I’ve had to translate technical problems to people outside of IT—like explaining why a network issue was affecting phones, or helping non-tech teammates understand how to access SIPR. Being that bridge between users and tech is a strength I plan to bring with me into project management roles.</p>
+                    <p className="skill-description">I've had to explain tech issues to people who weren't in IT. Whether it was a phone outage or a SIPR access issue, I broke it down in a way that made sense. I'm comfortable being the one who bridges the gap between technical teams and everyday users.</p>
                 </div>
 
                 <div className="skill-container">
                     <h2 className="skill-title">Leadership, Collaboration & Peer Development</h2>
-                    <p className="skill-description">I’ve consistently stepped up to lead by example—whether it was training junior soldiers, guiding teammates through tech workflows, or helping others troubleshoot problems step-by-step. I’ve built trust by staying calm, clear, and hands-on. That same mindset carries into how I collaborate today—supporting others, sharing what I know, and helping the team move forward together.</p>
+                    <p className="skill-description">I led from the front. Whether I was training junior soldiers or helping teammates troubleshoot a problem, I stayed hands-on and dependable. I built trust by doing the work and being available when others needed support. That mindset hasn't changed—I focus on helping the team win, not just doing my part.</p>
                 </div>
 
                 <h1 className="section-header">Technical Skills</h1>
 
                 <div className="skill-container">
                     <h2 className="skill-title">System Administration</h2>
-                    <p className="skill-description">I’ve worked directly with virtual infrastructure, user management, and vulnerability scanning. Most of my hands-on experience comes from managing ESXi environments with vSphere, monitoring systems using iDRAC and BMC, and maintaining uptime by identifying issues before they became outages. I’ve also done imaging, user support, and some basic hardware troubleshooting.</p>
+                    <p className="skill-description">I've worked directly with virtual infrastructure, user management, and vulnerability scanning. Most of my hands-on experience comes from managing ESXi environments with vSphere, monitoring systems using iDRAC and BMC, and maintaining uptime by identifying issues before they became outages. I've also done imaging, user support, and some basic hardware troubleshooting.</p>
                 </div>
 
                 <div className="skill-container">
                     <h2 className="skill-title">Information Security Support (RMF, ACAS, STIG)</h2>
-                    <p className="skill-description">While I haven't led compliance efforts, I’ve supported them through regular ACAS scans, STIG analysis using DoD STIG Viewer, and SCAP tool reviews. I understand RMF concepts and how system configurations, inherited vulnerabilities, and documentation play into achieving and maintaining ATO.</p>
+                    <p className="skill-description">While I haven't led compliance efforts, I've supported them through regular ACAS scans, STIG analysis using DoD STIG Viewer, and SCAP tool reviews. I understand RMF concepts and how system configurations, inherited vulnerabilities, and documentation play into achieving and maintaining ATO.</p>
                 </div>
 
                 <div className="skill-container">
@@ -97,12 +97,12 @@ function SkillsPage() {
 
                 <div className="skill-container">
                     <h2 className="skill-title">IT Operations & Support</h2>
-                    <p className="skill-description">I’ve reimaged and supported over 200 classified systems, working with users to troubleshoot common issues—from software errors to misconfigurations and network outages. I also worked with Tier 3 and federal support teams when issues were beyond our scope, learning how to escalate and communicate clearly across teams.</p>
+                    <p className="skill-description">I've reimaged and supported over 200 classified systems, working with users to troubleshoot common issues—from software errors to misconfigurations and network outages. I also worked with Tier 3 and federal support teams when issues were beyond our scope, learning how to escalate and communicate clearly across teams.</p>
                 </div>
 
                 <div className="skill-container">
                     <h2 className="skill-title">Networking (Basic Switching & Connectivity)</h2>
-                    <p className="skill-description">I’ve physically installed and updated Cisco Catalyst 3850 switches and helped with TACLANE setup during field operations. I didn’t handle deep configuration, but I followed detailed instructions, supported upgrades, and worked closely with senior network engineers during troubleshooting.</p>
+                    <p className="skill-description">I've physically installed and updated Cisco Catalyst 3850 switches and helped with TACLANE setup during field operations. I didn't handle deep configuration, but I followed detailed instructions, supported upgrades, and worked closely with senior network engineers during troubleshooting.</p>
                 </div>
 
                 <h1 className="section-header">Transferable Skills</h1>
