@@ -10,9 +10,9 @@ const experiences = [
         details: [
             "When I first joined TekSynap, I was handed the responsibility of weekly ACAS patching. What started as something I was trained on quickly became something I owned. Every week I handled updates and helped reduce critical vulnerabilities in the environment by staying consistent with plugin deployments. Over time, that effort helped cut high-risk findings by around 25%.",
 
-            "I also processed hundreds of Cross Domain Solution (CDS) requests, carefully reviewing COR approvals and securely moving files between NIPR and SIPR using DoD Safe or ARL Safe. Sometimes the files were too large, so I compressed and packaged them for transfer. I also handled eBook media transfers and made sure everything went where it needed to without fail.",
+            "I processed hundreds of Cross Domain Solution (CDS) requests, reviewed COR approvals, and securely transferred data between NIPR and SIPR using platforms like DoD Safe and ARL Safe. I also handled eBook media transfers and ensured everything moved through the right channels without delays or security issues.",
         
-            "On the infrastructure side, I worked hands-on with vSphere and iDRAC, using procedures given to me by senior engineers. As I repeated the process, I got better and more confident deploying virtual machines and adjusting configurations. I also used BMC and iDRAC to monitor server health across Dell, VxRail, and Azure systems, and helped reduce system downtime significantly for our SA team.",
+            "On the infrastructure side, I worked hands-on with vSphere and iDRAC, using procedures given to me by senior engineers. As I repeated the process, I got better and more confident deploying virtual machines and adjusting configurations. I also used BMC and iDRAC to monitor server health across Dell, VxRail, and Azure systems, and helped reduce system downtime significantly for the team and users.",
         
             "I ran regular ACAS scans, analyzed findings using SCAP tools and STIG Viewer, and documented everything clearly. I was able to speak to why vulnerabilities were open, what was inherited, and helped support RMF compliance through accurate reporting."
         ]
@@ -23,11 +23,11 @@ const experiences = [
         role: "Information System Security Engineer (ISSE)",
         date: "December 2022 - March 2024",
         details: [
-            " As an Information System Security Engineer in the Army, I worked on classified workstations—imaging them, troubleshooting drivers, and making sure users could connect on both NIPR and SIPR networks. I trained other soldiers on how to set up systems, especially during slower days, and we came up with small ways to speed up deployment.",
+            "I worked on classified workstations, handling imaging, driver issues, and ensuring users could connect on both NIPR and SIPR networks. During downtime, I trained other soldiers on system setup and helped improve deployment speed with small process tweaks that made a difference.",
             
-            " I handled account creation and permission assignments, enabling CAC and token-based logins depending on the network. My team also ran a lot of cable and fixed physical connectivity issues like broken VoIP lines or moving drops to new locations.",
+            "I was responsible for creating user accounts and managing permissions, making sure CAC and token logins were set up correctly across both NIPR and SIPR environments. We handled a good amount of hands-on work like running cable, fixing VoIP lines, and moving network drops as users shifted locations.",
             
-            " We wrote a basic SOP before we rotated out to help the next team hit the ground running."
+            "Before we rotated out, we put together a straightforward SOP to pass down. It wasn’t overly polished, but it covered what mattered and gave the next team a solid starting point."
         ]
     },
     {
@@ -36,11 +36,11 @@ const experiences = [
         role: "COMSEC Manager",
         date: "September 2021 to November 2022",
         details: [
-            " As the COMSEC Manager, I personally loaded encryption keys onto tactical radios using the SKL. I also explained the process to soldiers while we waited, answering questions about key placement and radio setup.",
+            "I regularly loaded encryption keys onto tactical radios using the SKL, making sure secure comms were good to go before field ops kicked off. While we waited, I used that time to walk soldiers through the process and explain why it mattered, helping them understand how proper key handling tied directly into operational success.",
             
-            " We refreshed keys weekly, monthly, quarterly, and annually, including Firefly keys, and I kept logs to track what was issued or destroyed.",
+            "Keys were rotated on a strict schedule: weekly, monthly, quarterly, and annually. I maintained detailed accountability logs for each issue and destruction, ensuring everything stayed compliant and inspection-ready.",
             
-            " I did spot checks and verified key handling using our credential system. If someone deleted a key, we could trace it back. I followed guidance from the brigade COMSEC lead and supported field exercises with timely key rotations to keep communication secure."
+            "I performed routine spot checks and used our credential system to track and verify key handling. If a key was deleted or mishandled, I could trace it back to the individual responsible and take corrective action. I stayed aligned with brigade-level COMSEC guidance and worked directly with mission planners to ensure keys were rotated on time, keeping critical comms secured during every field exercise."
         ]
     },
     {
@@ -49,9 +49,11 @@ const experiences = [
         role: "Network Security Administrator",
         date: "April 2020 to August 2021",
         details: [
-            " In this role, I installed and updated Cisco Catalyst switches and plugged in TACLANE devices as needed. I didn’t configure them in-depth, but I followed step-by-step procedures and learned a lot watching the more experienced folks work through the process.",
+            "Installed and updated Cisco Catalyst switches and helped set up TACLANE devices during field operations. I didn’t handle deep config, but I followed procedures closely and picked up valuable hands-on experience by working alongside more advanced team members.",
             
-            " I handled user access and troubleshooting across classified systems. If something broke, I was the first person many came to. I also worked directly with Tier 3 and Area IV teams when we needed help with more advanced networking issues."
+            "Managed user access and daily troubleshooting across classified systems. I was often the first stop when something went down, and I kept things moving while working with Tier 3 and Area IV support when issues got more complex.",
+
+            "Stayed involved in system handoffs, outages, and hardware swaps to keep our gear mission-ready. When comms or access went down, I made sure it got fixed fast, even if it meant chasing down cables or walking people through workarounds."
         ]
     },
     {
@@ -60,13 +62,13 @@ const experiences = [
         role: "IT Operations Manager",
         date: "March 2019 to March 2020",
         details: [
-            " I managed reimaging for over 200 systems using our standard image, fixing user-side and hardware issues as they came up.",
+            "Reimaged and maintained over 200 classified systems, resolving both software and hardware issues quickly to avoid downtime. I became the go-to for system recovery and kept everything running clean during high-turnover periods.",
             
-            " I monitored outages using Spectrum OS and could see where downtime was happening, how severe it was, and who needed to be informed.",
+            "Monitored system availability with Spectrum OS and stayed on top of real-time outages. I identified who was impacted, how critical it was, and got the right teams involved fast to restore functionality.",
             
-            " When networks had to go down for maintenance, I was the one coordinating with users to make sure their systems were powered off ahead of time.",
+            "Coordinated directly with users and leadership during planned maintenance windows to power systems down safely, preventing data loss or equipment damage during network operations.",
             
-            " I also issued access badges and helped keep track of SCIF entry to make sure only the right folks had access."
+            "Managed access badge distribution and SCIF entry logs, verifying that only cleared personnel were getting through. Accuracy mattered, and I didn’t cut corners when it came to accountability or access control."
         ]
     }
 ];
