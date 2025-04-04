@@ -3,14 +3,14 @@ import "./ProjectsPage.css";
 function ProjectsPage() {
   const projects = [
     {
-      name: "Secure File Transfer Portal",
-      description: "Developed a portal for cross-domain file transfers between secure networks.",
-      role: "Lead Developer",
-      scope: "Design and deploy a web-based tool for secure file validation and transmission",
-      goals: "Reduce manual file handling by 70% and increase compliance accuracy",
-      teamSize: "4",
-      tools: "React, Node.js, Express, MongoDB, Docker",
-      outcome: "Portal processed over 500 secure file transfers in its first 3 months with zero compliance issues."
+      name: "Tactical Operations Leadership Exercise",
+      description: "Led a intense training exercise simulating a coordinated field operation, designed to assess leadership, communication, and mission execution under pressure.",
+      role: "Squad Leader",
+      scope: "Planned and led a team through a simulated tactical mission. Assigned roles based on operational priorities, organized rehearsal drills, and finalized strategic checkpoints and timelines.",
+      goals: "Demonstrate leadership under pressure by managing team movement, ensuring operational readiness, and delivering a successful mission brief and execution.",
+      teamSize: "10",
+      tools: "Operational planning tools, topographic maps, sand table model (TMK), task assignment frameworks",
+      outcome: "Successfully executed the mission with full team cohesion and no critical errors. Demonstrated strength in time management, delegation, and situational leadership. Received top evaluation marks for planning accuracy, briefing clarity, and operational command."
     },
     {
       name: "ACAS Automation",
