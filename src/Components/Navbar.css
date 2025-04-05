@@ -11,45 +11,24 @@
 .nav-container {
   max-width: 1200px;
   margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5 equal columns for 5 links */
   align-items: center;
-  position: relative;
   width: 100%;
 }
 
-.nav-group {
-  display: flex;
-  list-style: none;
-  gap: 30px;
-  padding: 0;
-  margin: 0;
+.nav-item {
+  text-align: center;
 }
 
-.nav-group.left {
-  justify-content: flex-start;
-  flex: 1;
-}
-
-.nav-group.right {
-  justify-content: flex-end;
-  flex: 1;
-}
-
-.nav-group.center {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-.nav-group a {
+.nav-item a {
   color: white;
   text-decoration: none;
   font-size: 20px;
   transition: color 0.3s ease;
 }
 
-.nav-group a:hover {
+.nav-item a:hover {
   color: #66ccff;
   border-bottom: 2px solid #66ccff;
   padding-bottom: 2px;
