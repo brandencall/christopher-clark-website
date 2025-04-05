@@ -1,4 +1,4 @@
-import Experience from "../../Components/Experience.tsx";
+import CareerTimeline from "../../Components/CareerTimeline.tsx";
 import Certifications from "../../Components/Certifications/Certifications.tsx";
 import "./BackgroundPage.css";
 
@@ -6,8 +6,8 @@ function BackgroundPage() {
     return (
         <div className="content-section">
             <h1 className="section-header">Career Timeline</h1>
-            <div className="experience-container">
-                <Experience />
+            <div className="career-timeline-container">
+                <CareerTimeline />
             </div>
 
             <h1 className="section-header">Education</h1>
