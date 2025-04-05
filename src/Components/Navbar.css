@@ -19,7 +19,7 @@
   align-items: center;
   width: 100%;
   max-width: 1200px;
-  position: relative;
+  margin: 0 auto;
 }
 
 /* Navigation links */
