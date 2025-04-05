@@ -11,8 +11,9 @@
 .nav-container {
   max-width: 1200px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr); /* 5 equal columns for 5 links */
+  display: flex;
+  justify-content: center; /* centers nav items horizontally */
+  gap: 40px; /* space between nav links */
   align-items: center;
   width: 100%;
 }
