@@ -14,41 +14,38 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
   width: 100%;
 }
 
-/* Each group: left, center, right */
 .nav-group {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
   list-style: none;
   gap: 30px;
-  width: 100%;
   padding: 0;
   margin: 0;
 }
 
-.nav-group.center {
-  justify-content: center;
-  flex: 1;
-}
-
-.nav-group.left,
-.nav-group.right {
-  flex: 1;
+.nav-group.left {
   justify-content: flex-start;
+  flex: 1;
 }
 
-/* Align links properly */
 .nav-group.right {
   justify-content: flex-end;
+  flex: 1;
+}
+
+.nav-group.center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .nav-group a {
   color: white;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   transition: color 0.3s ease;
 }
 
