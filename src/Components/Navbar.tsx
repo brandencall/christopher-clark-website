@@ -16,18 +16,12 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-container">
-        <ul className="nav-group left">
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/Background">Background</Link></li>
-        </ul>
-
-        <ul className="nav-group center">
-          <li><Link to="/Projects">Projects</Link></li>
-        </ul>
-
-        <ul className="nav-group right">
-          <li><Link to="/Skills">Skills</Link></li>
-          <li><Link to="/Contact">Contact</Link></li>
+        <ul className="nav-group">
+          <li><Link to="/" onClick={closeMenu}>Home</Link></li>
+          <li><Link to="/Background" onClick={closeMenu}>Background</Link></li>
+          <li><Link to="/Projects" onClick={closeMenu}>Projects</Link></li>
+          <li><Link to="/Skills" onClick={closeMenu}>Skills</Link></li>
+          <li><Link to="/Contact" onClick={closeMenu}>Contact</Link></li>
         </ul>
       </div>
     </nav>
