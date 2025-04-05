@@ -12,7 +12,7 @@ const navLinks = [
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="nav-container container">
+      <div className="nav-container">
         {navLinks.map((link) => (
           <div className="nav-item" key={link.to}>
             <Link to={link.to}>{link.label}</Link>

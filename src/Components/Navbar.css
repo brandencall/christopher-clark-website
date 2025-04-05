@@ -1,26 +1,29 @@
 .navbar {
   background-color: #2e2e2e;
-  padding: 0; /* Remove vertical padding to prevent nav from growing */
+  padding: 0;
   border-bottom: 1px solid #444;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 1000;
-  height: 60px; /* Explicit fixed height */
+  height: 60px;
   display: flex;
-  align-items: center; /* Vertically center the nav container */
+  align-items: center;
 }
 
 .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: nowrap; /* 🧠 Prevents nav items from stacking */
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1rem;
   width: 100%;
-  height: 100%; /* Match height of .navbar */
+  height: 100%;
 }
+
+/* You can remove "container" from the class list if you want. It’s no longer needed if you're using nav-container correctly. */
 
 .nav-item {
   text-align: center;
