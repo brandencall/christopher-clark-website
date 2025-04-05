@@ -1,23 +1,25 @@
 /* Base styles for the navbar */
 .navbar {
-  background-color: #2e2e2e; /* Dark background */
+  background-color: #2e2e2e;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 14px 0;
   border-bottom: 1px solid #444;
-  position: fixed; /* Fixes the navbar at the top */
+  position: fixed;
   width: 100%;
   top: 0;
-  z-index: 1000; /* Ensures the navbar stays above other elements */
+  z-index: 1000;
 }
 
 /* Container for navigation links */
 .nav-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
-  max-width: 1200px; /* Limits the width for larger screens */
+  max-width: 1200px;
+  position: relative;
 }
 
 /* Navigation links */
@@ -45,14 +47,14 @@
   border-bottom: 2px solid #66ccff;
 }
 
-/* Mobile menu button */
+/* Mobile menu button (hamburger) */
 .menu-toggle {
   display: none;
   flex-direction: column;
   cursor: pointer;
   position: absolute;
   right: 20px;
-  top: 15px;
+  top: 18px;
 }
 
 .menu-toggle span {
@@ -66,31 +68,32 @@
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .menu-toggle {
-      display: flex;
+    display: flex;
   }
 
   .nav-links {
-      display: none;
-      flex-direction: column;
-      width: 100%;
-      position: absolute;
-      top: 60px;
-      left: 0;
-      background-color: #2e2e2e;
-      border-top: 1px solid #444;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #2e2e2e;
+    border-top: 1px solid #444;
   }
 
-  .nav-links.active {
-      display: flex;
+  .nav-links.open {
+    display: flex;
   }
 
   .nav-links li {
-      text-align: center;
-      margin: 0;
+    text-align: center;
+    margin: 0;
   }
 
   .nav-links a {
-      padding: 15px;
-      display: block;
+    padding: 15px;
+    display: block;
+    width: 100%;
   }
 }
