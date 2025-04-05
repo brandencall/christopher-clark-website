@@ -2,7 +2,7 @@ import "./SkillsPage.css";
 
 function SkillsPage() {
     return (
-        <div className="skill-page-container page-content">
+        <div className="page-content">
             <div>
                 <h1 className="section-header">Tools and Technologies</h1>
 

@@ -25,7 +25,7 @@ function ProjectsPage() {
   ];
 
   return (
-    <div className="projects-page-container page-content">
+    <div className="page-content">
       <h1 className="section-header">Projects</h1>
       <div className="projects-grid">
         {projects.map((project, index) => (

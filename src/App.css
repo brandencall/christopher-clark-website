@@ -5,5 +5,7 @@
   }
   
   .page-content {
-    padding-top: 200px; /* For space under fixed navbar */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 200px 1rem 0; /* Top padding pushes content below fixed navbar */
   }

@@ -8,7 +8,7 @@ import ContactIcons from "../../Components/ContactIcons";
 
 function ContactPage() {
     return (
-        <div className="contact-me-container page-content">
+        <div className="page-content">
             <div className="contact-me-title-container">
                 <h1>Contact Me</h1>
             </div>

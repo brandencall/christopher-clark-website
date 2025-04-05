@@ -4,7 +4,7 @@ import "./BackgroundPage.css";
 
 function BackgroundPage() {
     return (
-        <div className="content-section page-content">
+        <div className="page-content">
             <h1 className="section-header">Career Timeline</h1>
             <div className="career-timeline-container">
                 <CareerTimeline />
