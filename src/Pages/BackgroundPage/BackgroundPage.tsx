@@ -1,5 +1,5 @@
 import Experience from "../../Components/Experience.tsx";
-import Achievements from "../../Components/Achievements/Achievements.tsx";
+import Certifications from "../../Components/Certifications/Certifications.tsx";
 import "./BackgroundPage.css";
 
 function BackgroundPage() {
@@ -97,7 +97,7 @@ function BackgroundPage() {
             </div>
 
             <h1 className="section-header">Certifications</h1>
-            <Achievements />
+            <Certifications />
         </div>
     );
 }
