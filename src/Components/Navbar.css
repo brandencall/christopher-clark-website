@@ -1,43 +1,96 @@
-/* Navbar container */
+/* Base styles for the navbar */
 .navbar {
-    background-color: #2e2e2e;
-    height: 60px;
-    display: flex;
-    justify-content: center; /* centers nav-container */
-    align-items: center;
-    padding: 14px 0;
-    border-bottom: 1px solid #444;
+  background-color: #2e2e2e; /* Dark background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 0;
+  border-bottom: 1px solid #444;
+  position: fixed; /* Fixes the navbar at the top */
+  width: 100%;
+  top: 0;
+  z-index: 1000; /* Ensures the navbar stays above other elements */
+}
+
+/* Container for navigation links */
+.nav-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px; /* Limits the width for larger screens */
+}
+
+/* Navigation links */
+.nav-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  padding-bottom: 5px;
+}
+
+.nav-links a:hover {
+  color: #66ccff;
+  border-bottom: 2px solid #66ccff;
+}
+
+/* Mobile menu button */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 15px;
+}
+
+.menu-toggle span {
+  background-color: white;
+  height: 3px;
+  width: 25px;
+  margin: 4px 0;
+  transition: all 0.3s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .menu-toggle {
+      display: flex;
   }
-  
-  /* Wrapper for nav links */
-  .nav-container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-  }
-  
-  /* List of nav links */
+
   .nav-links {
-    display: flex;
-    list-style: none;
-    justify-content: space-around; /* Distributes all links evenly */
-    width: 100%;
-    padding: 0;
-    margin: 0;
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background-color: #2e2e2e;
+      border-top: 1px solid #444;
   }
-  
-  
-  /* Each link style */
-  .nav-links li a {
-    color: white;
-    text-decoration: none;
-    font-size: 24px;
-    transition: color 0.3s ease;
+
+  .nav-links.active {
+      display: flex;
   }
-  
-  .nav-links li a:hover {
-    color: #66ccff;
-    border-bottom: 2px solid #66ccff;
-    padding-bottom: 2px;
+
+  .nav-links li {
+      text-align: center;
+      margin: 0;
   }
-  
+
+  .nav-links a {
+      padding: 15px;
+      display: block;
+  }
+}
