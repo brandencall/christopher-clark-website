@@ -9,13 +9,12 @@
 }
 
 .nav-container {
-  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Even spacing for 5 items */
+  max-width: 100%; /* Full width */
   margin: 0 auto;
-  display: flex;
-  justify-content: center; /* centers nav items horizontally */
-  gap: 40px; /* space between nav links */
   align-items: center;
-  width: 100%;
+  text-align: center;
 }
 
 .nav-item {
