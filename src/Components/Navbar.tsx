@@ -15,19 +15,23 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-  <div className="nav-container">
-    <ul className="nav-group left">
-      <li><Link to="/">Home</Link></li>
-      <li><Link to="/Background">Background</Link></li>
-    </ul>
+      <div className="nav-container">
+        <ul className="nav-group left">
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/Background">Background</Link></li>
+        </ul>
 
-    <ul className="nav-group center">
-      <li><Link to="/Projects">Projects</Link></li>
-    </ul>
+        <ul className="nav-group center">
+          <li><Link to="/Projects">Projects</Link></li>
+        </ul>
 
-    <ul className="nav-group right">
-      <li><Link to="/Skills">Skills</Link></li>
-      <li><Link to="/Contact">Contact</Link></li>
-    </ul>
-  </div>
-</nav>
+        <ul className="nav-group right">
+          <li><Link to="/Skills">Skills</Link></li>
+          <li><Link to="/Contact">Contact</Link></li>
+        </ul>
+      </div>
+    </nav>
+  );
+}
+
+export default Navbar;
