@@ -13,6 +13,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-container">
+        <div style={{ width: "60px" }} />
         {navLinks.map((link) => (
           <div className="nav-item" key={link.to}>
             <Link to={link.to}>{link.label}</Link>
