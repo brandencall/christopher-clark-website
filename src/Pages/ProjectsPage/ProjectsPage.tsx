@@ -32,6 +32,16 @@ function ProjectsPage() {
       tools: "Windows Deployment Services (WDS), DoD imaging procedures, Active Directory, peripheral inventory systems, USAF compliance checklists",
       outcome: "Successfully imaged and deployed all targeted systems with no major configuration issues. Resolved imaging anomalies and hardware discrepancies in real time. Ensured complete system compliance and functionality, contributing to unit readiness and reduced support requests post-deployment."
     },
+    {
+      name: "Secure Communications Loadout",
+      description: "Managed encryption key distribution and configuration across over 30 tactical vehicles, ensuring SINCGARS radio systems were fully operational, secure, and compliant before field deployment.",
+      role: "COMSEC Operations Lead",
+      scope: "Oversaw the secure loadout and verification of Sincgars RT-1523 radios using SKL devices across a fleet of over 30 tactical vehicles, including HMMWVs, HEMTT fuelers, medical vehicles, and launcher platforms. Led a 3-person team in configuring radio frequencies, channels, and tacline parameters according to established brigade procedures. Conducted real-time issue resolution, procedural compliance checks, and on-the-ground instruction to ensure mission-critical communications readiness.",
+      goals: "Deliver 100% secure communications capability prior to all field exercises by properly loading cryptographic keys, validating frequency/channel configurations, and confirming operational readiness of all radios. Train operators on COMSEC best practices and maintain compliance with key rotation schedules and accountability protocols.",
+      teamSize: "3",
+      tools: "SKL (Simple Key Loader), SINCGARS RT-1523, encryption key rotation schedules (weekly, monthly, quarterly, annual), credential tracking system, brigade COMSEC SOP, tacline configuration guides",
+      outcome: "All radios deployed with correct cryptographic keys and validated configurations. Enabled secure, uninterrupted field communications across diverse vehicle platforms. Identified and resolved key handling errors in real time. Maintained 100% inspection-readiness through detailed logs, spot checks, and compliance enforcement."
+    },
   ];
 
   return (
