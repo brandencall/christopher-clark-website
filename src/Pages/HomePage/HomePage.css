@@ -32,12 +32,6 @@ body, html {
     transform: translateY(0);
   }
 
-.icon-row a {
-    color: white;
-    transition: transform 0.2s ease;
-    font-size: 28px;
-}
-
 .icon-row a:hover {
     transform: scale(1.2);
     color: #66ccff; /* or any accent color */
@@ -53,10 +47,6 @@ body, html {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-}
-
-.icon-row a:not(:last-child) {
-    margin-right: 90px;
 }
 
 /* Headshot Image */
