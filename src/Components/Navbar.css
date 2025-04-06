@@ -45,14 +45,7 @@
 }
 
 @media (max-width: 600px) {
-  .nav-container {
-    gap: 1rem;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .nav-item a {
-    font-size: 16px;
-    padding: 0.5rem;
+  .navbar {
+    background-color: red;
   }
 }
