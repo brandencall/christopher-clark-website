@@ -46,6 +46,6 @@
 
 @media (max-width: 900px) {
   .navbar {
-    background-color: red;
+    background-color: red !important;
   }
 }
