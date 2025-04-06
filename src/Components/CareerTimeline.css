@@ -1,6 +1,11 @@
 .career-timeline-page-container {
     max-width: 1000px;
-    margin: auto;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
 }
 
 .career-timeline-button-container {
