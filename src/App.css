@@ -15,6 +15,11 @@
     box-sizing: border-box;
   }
 
+  body {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
 @media (max-width: 768px) {
     .page-content {
       padding: 120px 16px 0;
