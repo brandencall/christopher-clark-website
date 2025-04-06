@@ -11,14 +11,18 @@ function BackgroundPage() {
             </div>
 
             <h1 className="section-header">Education</h1>
-
-            <div className="education-card">
-                <div className="education-card-head">
-                    <h2 className="education-card-head-title">Master of Business Administration (MBA), Cybersecurity Track</h2>
-                    <p className="education-date">Mar 2024 - Present</p>
-                </div>
-                <p className="education-location">University of New Mexico (UNM) | Albuquerque, New Mexico (NM)</p>
-                <ul className="education-list">
+            <div className="education-container">
+                <div className="education-card">
+                    <div className="education-card-head">
+                        <h2 className="education-card-head-title">
+                            Master of Business Administration (MBA), Cybersecurity Track
+                        </h2>
+                        <p className="education-date">Mar 2024 - Present</p>
+                    </div>
+                    <p className="education-location">
+                        University of New Mexico (UNM) | Albuquerque, New Mexico (NM)
+                    </p>
+                    <ul className="education-list">
                     <li>Building leadership and decision-making skills through real-world topics like operations, accounting, and strategy.</li>
                     <li>Learning cybersecurity from the business side, including risk management, secure systems, and network oversight.</li>
                     <li>Getting hands-on with tools for data-driven decisions, strategic planning, and tech commercialization.</li>
