@@ -5,6 +5,7 @@ import ProjectsPage from "./Pages/ProjectsPage/ProjectsPage";
 import SkillsPage from "./Pages/SkillsPage/SkillsPage";
 import ContactPage from "./Pages/ContactPage/ContactPage";
 import Navbar from "./Components/Navbar";
+import "./App.css";
 
 function App() {
     return (
