@@ -22,6 +22,16 @@ function ProjectsPage() {
       tools: "iDRAC, ESXCLI, VMware vSphere, DoD DNS, DoD Safe, Active Directory, Subnetting tools",
       outcome: "Completed the full lifecycle of node decommissioning and rebuilds for multiple systems with no operational downtime or configuration issues. Ensured all host records, networking interfaces, and cluster integrations were validated and compliant with DoD standards."
     },
+    {
+      name: "Workstation Compliance Deployment",
+      description: "Reimaged over 100 incoming workstations to meet strict USAF compliance requirements, ensuring all systems were configured according to approved base procedures and distributed with required hardware accessories.",
+      role: "Technical Team Lead",
+      scope: "Led an 8-person deployment team to process, reimage, and distribute over 100 USAF workstations. Managed setup logistics, coordinated task flow, and served as the technical escalation point during troubleshooting. Oversaw the full system compliance lifecycle from initial imaging to peripheral provisioning.",
+      goals: "Ensure every workstation was properly imaged according to USAF standards, operational upon delivery, and deployed with no configuration gaps. Provide technical leadership and real-time issue resolution to maintain deployment efficiency and system integrity.",
+      teamSize: "8",
+      tools: "Windows Deployment Services (WDS), DoD imaging procedures, Active Directory, peripheral inventory systems, USAF compliance checklists",
+      outcome: "Successfully imaged and deployed all targeted systems with no major configuration issues. Resolved imaging anomalies and hardware discrepancies in real time. Ensured complete system compliance and functionality, contributing to unit readiness and reduced support requests post-deployment."
+    },
   ];
 
   return (
