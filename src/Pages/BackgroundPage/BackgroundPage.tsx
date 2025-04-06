@@ -99,7 +99,7 @@ function BackgroundPage() {
                     <li>Developed a strong baseline in IT essentials, preparing to support and secure both military and enterprise systems under high-stakes conditions.</li>
                 </ul>
             </div>
-
+        </div>
             <h1 className="section-header">Certifications</h1>
             <Certifications />
         </div>
