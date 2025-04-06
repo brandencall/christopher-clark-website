@@ -1,4 +1,5 @@
 import "./ProjectsPage.css";
+import "../../App.css";
 
 function ProjectsPage() {
   const projects = [
