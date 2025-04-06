@@ -68,14 +68,6 @@ body, html {
     transition: box-shadow 0.3s ease;
 }
 
-.homepage-inner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-
 /* Name */
 .name {
     font-size: 32px;

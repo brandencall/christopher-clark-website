@@ -11,7 +11,6 @@ function HomePage() {
 
     return (
         <div className={`page-content ${fadeIn ? "fade-in" : ""}`}>
-         <div className="homepage-inner">
             <div className="icon-row fade-in-up" style={{ animationDelay: '0.5s' }}>
                 <ContactIcons />
             </div>
