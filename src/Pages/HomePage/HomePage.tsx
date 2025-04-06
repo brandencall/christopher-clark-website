@@ -51,8 +51,8 @@ function HomePage() {
                 At the core of everything I do is a mindset built on ownership, quick learning, and pushing the team forward. I focus on what needs to get done, find the best way to do it, and make sure it's done right. Whether I’m solving technical issues or helping a team stay on track, I aim to finish strong and raise the standard every time.
                 </p>
             </div>
-        </div>
-    );
-}
+        </div> 
+    </div>
+);
 
 export default HomePage;
