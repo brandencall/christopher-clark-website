@@ -2,7 +2,12 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 120px 24px 0;
-}
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* centers all direct children horizontally */
+    text-align: center;   /* centers headings and paragraph text */
+  }  
 
 .section-header {
     margin-bottom: 40px;
