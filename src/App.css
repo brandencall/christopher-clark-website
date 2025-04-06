@@ -1,5 +1,11 @@
 .page-content {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 100px 24px 0;
+    padding: 140px 24px 0;
 }
+
+@media (max-width: 768px) {
+    .page-content {
+      padding: 120px 16px 0;
+    }
+  }
