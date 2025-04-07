@@ -19,6 +19,10 @@
     justify-content: space-between;
 }
 
+.certification-grid-item:hover {
+    outline: 2px solid white;
+}
+
 .certification-grid-item img {
     max-height: 140px;
     width: auto;
