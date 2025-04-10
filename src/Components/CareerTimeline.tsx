@@ -18,7 +18,7 @@ const experiences = [
         id: "job2",
         company: "United States Army  Al Udeid AB, Qatar/Fort Bliss, TX",
         role: "Information System Security Engineer (ISSE)",
-        date: "December 2022 - March 2024",
+        date: "November 2022 - March 2024",
         details: [
             "I worked on classified workstations, handling imaging, driver issues, and ensuring users could connect on both NIPR and SIPR networks. During downtime, I trained other soldiers on system setup and helped improve deployment speed with small process tweaks that made a difference.",
             "I was responsible for creating user accounts and managing permissions, making sure CAC and token logins were set up correctly across both NIPR and SIPR environments. We handled a good amount of hands-on work like running cable, fixing VoIP lines, and moving network drops as users shifted locations.",
@@ -29,7 +29,7 @@ const experiences = [
         id: "job3",
         company: "United States Army  Fort Bliss, Texas",
         role: "COMSEC Manager",
-        date: "September 2021 to November 2022",
+        date: "August 2021 to November 2022",
         details: [
             "I regularly loaded encryption keys onto tactical radios using the SKL, making sure secure comms were good to go before field ops kicked off. While we waited, I used that time to walk soldiers through the process and explain why it mattered, helping them understand how proper key handling tied directly into operational success.",
             "Keys were rotated on a strict schedule: weekly, monthly, quarterly, and annually. I maintained detailed accountability logs for each issue and destruction, ensuring everything stayed compliant and inspection-ready.",
@@ -40,7 +40,7 @@ const experiences = [
         id: "job4",
         company: "United States Army  Cp Walker, South Korea",
         role: "Network Security Administrator",
-        date: "April 2020 to August 2021",
+        date: "March 2020 to August 2021",
         details: [
             "Installed and updated Cisco Catalyst switches and helped set up TACLANE devices during field operations. I didn’t handle deep config, but I followed procedures closely and picked up valuable hands-on experience by working alongside more advanced team members.",
             "Managed user access and daily troubleshooting across classified systems. I was often the first stop when something went down, and I kept things moving while working with Tier 3 and Area IV support when issues got more complex.",
