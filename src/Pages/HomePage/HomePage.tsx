@@ -27,7 +27,7 @@ function HomePage() {
                 Christopher Clark
             </h2>
             <h3 className="tagline fade-in-up" style={{ animationDelay: '1.4s' }}>
-                Systems Administrator | Future IT Project Manager
+                Technical Project Manager | Systems Administrator
             </h3>
 
             <div className="text fade-in-up" style={{ animationDelay: '1.7s' }}>
