@@ -11,10 +11,10 @@ function HomePage() {
 
     return (
         <div className={`page-content ${fadeIn ? "fade-in" : ""}`}>
+            <div className="icon-row fade-in-up" style={{ animationDelay: '0.5s' }}>
+                <ContactIcons />
+            </div>
             <div className="container">
-                <div className="icon-row fade-in-up" style={{ animationDelay: '0.5s' }}>
-                    <ContactIcons />
-                </div>
     
                 <img
                 src="/ChristopherClarkHeadShot.JPEG"

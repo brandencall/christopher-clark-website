@@ -22,9 +22,6 @@ body, html {
 
 /* Contact Icons - new layout */
 .icon-row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 45px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -50,14 +47,8 @@ body, html {
     font-size: 32px;
     width: 48px;
     height: 48px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
 }
 
-.icon-row a:not(:last-child) {
-    margin-right: 90px;
-}
 
 /* Headshot Image */
 .image {
