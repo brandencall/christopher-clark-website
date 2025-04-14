@@ -61,3 +61,11 @@ ul {
     left: 0;
     margin-right: 5px;
 }
+
+
+@media (max-width: 786px) {
+.career-timeline-button-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
