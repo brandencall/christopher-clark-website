@@ -1,3 +1,16 @@
+.background-page-content{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 120px 24px 0;
+    width: 100%;
+}
+background-page-section-header {
+    margin: 40px 0px;
+    text-align: center;
+    font-size: 28px
+}
 .content-section {
     display: flex;
     flex-direction: column;
@@ -6,6 +19,13 @@
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
+.career-timeline-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
 
 .career-timeline-button-container {
     align-self: center;
