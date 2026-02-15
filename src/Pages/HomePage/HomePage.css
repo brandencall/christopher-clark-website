@@ -1,126 +1,180 @@
-/* Prevent horizontal scroll */
-body, html {
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
+/* HomePage.css */
+/* ============================================= */
+/* GLOBAL DESIGN TOKENS (edit these first later) */
+/* ============================================= */
+:root {
+  --page-max: 900px;            /* 🔧 overall content width on desktop */
+  --text-max: 820px;            /* 🔧 text card max width (line length) */
+  --pad-x: 20px;                /* 🔧 default left/right padding */
+  --pad-y-top: 24px;            /* 🔧 top padding inside container */
+  --pad-y-bottom: 56px;         /* 🔧 bottom padding inside container */
+  --radius-lg: 16px;            /* 🔧 rounded corners for card */
+  --radius-img: 14px;           /* 🔧 rounded corners for headshot */
+  --border: rgba(255,255,255,0.08); /* 🔧 subtle border color */
+  --card: rgba(255,255,255,0.04);   /* 🔧 subtle card background */
+  --text: #ffffff;              /* 🔧 main text color */
+  --muted: #cfcfcf;             /* 🔧 tagline / secondary text */
+  --hover: #66ccff;             /* 🔧 default hover accent */
 }
 
+/* ============================================= */
+/* PAGE WRAPPER (Top Level)                      */
+/* ============================================= */
+.page-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  opacity: 0;                  /* add this */
+  transition: opacity 400ms ease; /* add this */
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+/* ============================================= */
+/* MAIN CONTENT CONTAINER                        */
+/* ============================================= */
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 10px 20px 40px 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    text-align: center;
-    box-sizing: border-box;
+  width: 100%;                  /* 🔧 responsive width */
+  max-width: var(--page-max);   /* 🔧 desktop max width */
+  margin: 20px auto;            /* 🔧 space above content + center horizontally */
+  padding: var(--pad-y-top) var(--pad-x) var(--pad-y-bottom); /* 🔧 inner spacing */
+
+  display: flex;                /* 🔧 stack page blocks */
+  flex-direction: column;       /* 🔧 vertical stacking */
+  align-items: center;          /* 🔧 center blocks like hero + card */
+
+  box-sizing: border-box;       /* 🔧 padding doesn’t increase final width */
+  color: var(--text);           /* 🔧 base text color */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* 🔧 font stack */
 }
 
-/* Contact Icons - new layout */
+/* ============================================= */
+/* ICON ROW WRAPPER (holds ContactIcons component) */
+/* ============================================= */
 .icon-row {
-    gap: 45px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    opacity: 1;
-    transform: translateY(0);
-  }
-  
-  .fade-in .icon-row {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  width: 100%;                  /* 🔧 full width so it can center */
+  margin: 20px auto;            /* 🔧 vertical spacing above icons */
+  padding: 0 24px;              /* 🔧 left/right breathing room */
 
-
-.icon-row a:hover {
-    transform: scale(1.2);
-    color: #66ccff; /* or any accent color */
+  display: flex;                /* 🔧 allows centering the child component */
+  justify-content: center;      /* 🔧 centers ContactIcons */
+  align-items: center;          /* 🔧 vertically centers */
 }
 
-
-.icon-row a {
-    color: white;
-    transition: transform 0.2s ease;
-    font-size: 32px;
-    width: 48px;
-    height: 48px;
+/* ============================================= */
+/* HERO SECTION (centered)                       */
+/* ============================================= */
+.hero {
+  width: 100%;                  /* 🔧 hero spans container width */
+  display: flex;                /* 🔧 stack hero content */
+  flex-direction: column;       /* 🔧 vertical */
+  align-items: center;          /* 🔧 center hero items */
+  text-align: center;           /* 🔧 keep name/tagline centered */
 }
 
-
-/* Headshot Image */
-.image {
-    width: 460px;
-    height: auto;
-    border-radius: 12px;
-    margin-top: 40px;
-    margin-bottom: 25px;
-  }
-
-.image:hover {
-    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
-    transition: box-shadow 0.3s ease;
+/* Headshot image */
+.hero__image {
+  width: min(420px, 92vw);      /* 🔧 image max size vs viewport */
+  height: auto;                 /* 🔧 preserve aspect ratio */
+  border-radius: var(--radius-img); /* 🔧 rounded corners */
+  margin-top: 10px;             /* 🔧 space above image */
+  margin-bottom: 18px;          /* 🔧 space below image */
 }
 
 /* Name */
-.name {
-    font-size: 32px;
-    font-weight: bold;
-    margin-bottom: 8px;
+.hero__name {
+  font-size: 44px;              /* 🔧 name size */
+  font-weight: 800;             /* 🔧 boldness */
+  margin: 0;                    /* 🔧 remove default margins */
+  line-height: 1.05;            /* 🔧 tighter headline spacing */
 }
 
-/* Subheading / Tagline */
-.tagline {
-    font-size: 18px;
-    font-style: italic;
-    color: #ccc;
-    margin-bottom: 36px;
+/* Tagline */
+.hero__tagline {
+  font-size: 18px;              /* 🔧 tagline size */
+  font-style: italic;           /* 🔧 italics style */
+  color: var(--muted);          /* 🔧 muted tone */
+  margin-top: 10px;             /* 🔧 space from name */
+  margin-bottom: 26px;          /* 🔧 space before the card */
 }
 
-/* About Me Text */
-.text {
-    max-width: 860px;
-    font-size: 19px;
-    line-height: 1.75;
-    padding: 0 24px;
+/* ============================================= */
+/* TEXT CARD (left aligned)                      */
+/* ============================================= */
+.hero__text {
+  width: min(var(--text-max), 94vw); /* 🔧 readable line length */
+  background: var(--card);      /* 🔧 subtle card bg */
+  border: 1px solid var(--border); /* 🔧 subtle border */
+  border-radius: var(--radius-lg); /* 🔧 rounded corners */
+  padding: 26px 26px;           /* 🔧 inside spacing */
+  line-height: 1.75;            /* 🔧 readability */
+  font-size: 18px;              /* 🔧 text size */
+
+  text-align: left;             /* 🔧 “executive” feel for paragraphs */
 }
 
-/* Responsive layout */
-@media (max-width: 768px) {
-    .image {
-        width: 90%;
-    }
-
-    .text {
-        font-size: 16px;
-        padding: 0 12px;
-    }
-
-    .icon-row {
-        flex-direction: row;
-        justify-content: center;
-        gap: 28px;
-        margin-bottom: 30px;
-    }
+/* Paragraph spacing */
+.hero__text p {
+  margin: 0 0 18px 0;           /* 🔧 spacing between paragraphs */
+}
+.hero__text p:last-child {
+  margin-bottom: 0;             /* 🔧 no extra space at end */
 }
 
-/* Fade-in + translate up animation */
+/* ============================================= */
+/* ICON LINK STYLING (applies to <a> inside icon-row) */
+/* NOTE: If your icons are styled in ContactIcons.css, this may be redundant. */
+/* ============================================= */
+.icon-row a {
+  display: inline-flex;         /* 🔧 centers icon inside click area */
+  align-items: center;          /* 🔧 vertical center */
+  justify-content: center;      /* 🔧 horizontal center */
+  width: 52px;                  /* 🔧 click target width */
+  height: 52px;                 /* 🔧 click target height */
+  color: var(--text);           /* 🔧 icon color */
+  font-size: 34px;              /* 🔧 icon size */
+  transition: transform 0.2s ease, color 0.2s ease; /* 🔧 hover feel */
+}
+.icon-row a:hover {
+  transform: scale(1.12);       /* 🔧 hover zoom */
+  color: var(--hover);          /* 🔧 hover color */
+}
+
+/* ============================================= */
+/* ANIMATION: FADE IN UP                         */
+/* ============================================= */
 .fade-in-up {
-    opacity: 0;
-    transform: translateY(20px);
-    animation: fadeInUp 1.4s ease forwards;
+  opacity: 0;
+  transform: translateY(14px);
+  animation: fadeInUp 0.9s ease forwards;
+  animation-delay: var(--d, 0s);   /* add this line */
 }
 
 @keyframes fadeInUp {
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+  to {
+    opacity: 1;                 /* 🔧 end visible */
+    transform: translateY(0);   /* 🔧 end in place */
+  }
 }
 
-/* Optional: For smoother stagger effect */
-.fade-in-up {
-    animation-fill-mode: both;
+/* Respect user's motion preferences (senior-engineer touch) */
+@media (prefers-reduced-motion: reduce) {
+  .fade-in-up {
+    animation: none;            /* 🔧 disables animation */
+    opacity: 1;                 /* 🔧 always visible */
+    transform: none;            /* 🔧 no movement */
+  }
+}
+
+/* ============================================= */
+/* RESPONSIVE (phones / small tablets)           */
+/* ============================================= */
+@media (max-width: 768px) {
+  .hero__name { font-size: 34px; }      /* 🔧 shrink name on small screens */
+  .hero__text { padding: 18px 16px; font-size: 15px; } /* 🔧 compact card */
+  /* IMPORTANT: icon spacing belongs in ContactIcons.css on .icon-container */
 }
