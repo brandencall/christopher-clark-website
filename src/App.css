@@ -1,29 +1,125 @@
-.page-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 120px 24px;
-    width: 100%;
+/* App.css */
+/* =========================================================
+   GLOBAL FOUNDATION (desktop-first)
+   - Sets: background, base rendering, and ONE global wrapper
+   - Avoids styling `.page-content` to prevent collisions
+     with page-level CSS like HomePage.css
+   ========================================================= */
+
+/* -----------------------------------------
+   Box sizing: makes padding predictable
+------------------------------------------ */
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
+/* -----------------------------------------
+   Root tokens (easy to tweak later)
+------------------------------------------ */
+:root {
+  /* Global container width */
+  --app-max-width: 1100px;
+
+  /* Global horizontal gutters */
+  --app-gutter: clamp(16px, 2vw, 28px);
+
+  /* Global vertical spacing */
+  --app-pad-top: clamp(10px, 1.5vw, 18px);
+  --app-pad-bottom: clamp(48px, 5vw, 72px);
+
+  /* Navbar height/offset (your Navbar is fixed at 60px) */
+  --nav-offset: 60px;
+
+  /* Global colors */
+  --app-bg: #1f1f1f;
+  --app-text: #ffffff;
+
+  /* Subtle top glow */
+  --app-glow: rgba(102, 204, 255, 0.08);
+}
+
+/* -----------------------------------------
+   Page root / background
+------------------------------------------ */
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  color: var(--app-text);
+
+  background: var(--app-bg);
+
+  overflow-x: hidden;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Fixed glow overlay so it aligns with the navbar (no seam) */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  height: 520px; /* controls how far the glow reaches downward */
+  pointer-events: none;
+
+  background: radial-gradient(
+    900px 420px at 50% 0%,
+    var(--app-glow),
+    rgba(0, 0, 0, 0) 62%
+  );
+
+  /* behind content, behind navbar */
+  z-index: 0;
+}
+
+
+/* =========================================================
+   GLOBAL APP WRAPPER (THIS is what should offset the navbar)
+   - Apply this ONCE around your Routes in App.tsx
+   - Keeps pages free to style their own `.page-content`
+   ========================================================= */
+.app-page {
+  width: 100%;
+  max-width: var(--app-max-width);
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+
+  padding-left: var(--app-gutter);
+  padding-right: var(--app-gutter);
+
+  /* ✅ This is the key: reserve space for fixed navbar */
+  padding-top: calc(var(--nav-offset) + var(--app-pad-top));
+  padding-bottom: var(--app-pad-bottom);
+}
+
+/* =========================================================
+   SHARED SECTION HEADER STYLE
+========================================================= */
 .section-header {
-    margin-bottom: 30px;
-    margin-top: 40px;
-    text-align: center;
-    font-size: 28px;
-    font-weight: 600;
-  }
+  margin: 0;
+  margin-top: clamp(18px, 3vw, 36px);
+  margin-bottom: clamp(18px, 2.5vw, 28px);
 
-  *, *::before, *::after {
-    box-sizing: border-box;
-  }
+  text-align: center;
+  font-size: clamp(22px, 2.2vw, 30px);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
 
-  body {
-    overflow-x: hidden;
-    overflow-y: auto;
-  }
-
+/* =========================================================
+   RESPONSIVE
+========================================================= */
 @media (max-width: 768px) {
-    .page-content {
-      padding: 120px 16px;
-    }
+  :root {
+    --nav-offset: 60px; /* keep aligned to navbar height */
   }
+
+  .app-page {
+    padding-top: calc(var(--nav-offset) + 14px);
+    padding-bottom: clamp(40px, 6vw, 60px);
+  }
+}

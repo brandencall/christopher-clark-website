@@ -1,180 +1,251 @@
 /* HomePage.css */
-/* ============================================= */
-/* GLOBAL DESIGN TOKENS (edit these first later) */
-/* ============================================= */
+/* =======================================================
+   DESIGN SYSTEM TOKENS
+   - Tweak these to adjust spacing / sizing globally.
+   ======================================================= */
 :root {
-  --page-max: 900px;            /* 🔧 overall content width on desktop */
-  --text-max: 820px;            /* 🔧 text card max width (line length) */
-  --pad-x: 20px;                /* 🔧 default left/right padding */
-  --pad-y-top: 24px;            /* 🔧 top padding inside container */
-  --pad-y-bottom: 56px;         /* 🔧 bottom padding inside container */
-  --radius-lg: 16px;            /* 🔧 rounded corners for card */
-  --radius-img: 14px;           /* 🔧 rounded corners for headshot */
-  --border: rgba(255,255,255,0.08); /* 🔧 subtle border color */
-  --card: rgba(255,255,255,0.04);   /* 🔧 subtle card background */
-  --text: #ffffff;              /* 🔧 main text color */
-  --muted: #cfcfcf;             /* 🔧 tagline / secondary text */
-  --hover: #66ccff;             /* 🔧 default hover accent */
+  /* Layout */
+  --page-max: 960px;
+  --text-max: 760px;
+  --gutter: 20px;
+  --section-gap: 12px;
+
+  /* Hero image sizing (shorter hero WITHOUT cropping) */
+  --hero-img-width: 288px;          /* controls overall hero height */
+  --hero-img-width-lg: 320px;
+  --hero-img-max-h: 420px;          /* hard cap, still NO crop w/ height:auto */
+
+  /* Surfaces */
+  --radius-lg: 18px;
+  --radius-img: 16px;
+  --border: rgba(255, 255, 255, 0.14);
+  --card: rgba(255, 255, 255, 0.06);
+  --card-2: rgba(255, 255, 255, 0.03);
+
+  /* Depth */
+  --shadow-soft: 0 10px 26px rgba(0, 0, 0, 0.34);
+  --shadow-img: 0 14px 36px rgba(0, 0, 0, 0.42);
+
+  /* Color */
+  --text: #ffffff;
+  --muted: rgba(255, 255, 255, 0.72);
+  --hover: #66ccff;
+
+  /* Type */
+  --name-size: clamp(30px, 4vw, 48px);
+  --tagline-size: clamp(14px, 1.3vw, 18px);
+  --body-size: clamp(15px, 1.15vw, 18px);
+
+  /* Animation */
+  --fade-ms: 420ms;
 }
 
-/* ============================================= */
-/* PAGE WRAPPER (Top Level)                      */
-/* ============================================= */
+/* =======================================================
+   PAGE WRAPPER
+   ======================================================= */
 .page-content {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  opacity: 0;                  /* add this */
-  transition: opacity 400ms ease; /* add this */
+  opacity: 0;
+  transition: opacity var(--fade-ms) ease;
+
+  /* IMPORTANT:
+     App.css (.app-page) now owns the navbar offset + top glow.
+     So this should NOT add a second glow or extra top padding. */
+  padding-top: 0;
+  background: transparent;
 }
 
 .fade-in {
   opacity: 1;
 }
 
-/* ============================================= */
-/* MAIN CONTENT CONTAINER                        */
-/* ============================================= */
-.container {
-  width: 100%;                  /* 🔧 responsive width */
-  max-width: var(--page-max);   /* 🔧 desktop max width */
-  margin: 20px auto;            /* 🔧 space above content + center horizontally */
-  padding: var(--pad-y-top) var(--pad-x) var(--pad-y-bottom); /* 🔧 inner spacing */
-
-  display: flex;                /* 🔧 stack page blocks */
-  flex-direction: column;       /* 🔧 vertical stacking */
-  align-items: center;          /* 🔧 center blocks like hero + card */
-
-  box-sizing: border-box;       /* 🔧 padding doesn’t increase final width */
-  color: var(--text);           /* 🔧 base text color */
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; /* 🔧 font stack */
-}
-
-/* ============================================= */
-/* ICON ROW WRAPPER (holds ContactIcons component) */
-/* ============================================= */
+/* =======================================================
+   ICON ROW
+   ======================================================= */
 .icon-row {
-  width: 100%;                  /* 🔧 full width so it can center */
-  margin: 20px auto;            /* 🔧 vertical spacing above icons */
-  padding: 0 24px;              /* 🔧 left/right breathing room */
+  width: 100%;
+  max-width: var(--page-max);
+  padding: 10px var(--gutter) 0;
+  margin: 0 auto 2px;
 
-  display: flex;                /* 🔧 allows centering the child component */
-  justify-content: center;      /* 🔧 centers ContactIcons */
-  align-items: center;          /* 🔧 vertically centers */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/* ============================================= */
-/* HERO SECTION (centered)                       */
-/* ============================================= */
+/* Best-effort spacing normalization (works even if ContactIcons wraps items) */
+.icon-row > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+}
+
+.icon-row a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 46px;
+  height: 46px;
+  color: var(--text);
+  font-size: 30px;
+
+  border-radius: 12px;
+  transition: transform 0.18s ease, color 0.18s ease, background-color 0.18s ease;
+}
+
+.icon-row a:hover {
+  transform: translateY(-2px) scale(1.06);
+  color: var(--hover);
+  background-color: rgba(255, 255, 255, 0.04);
+}
+
+/* =======================================================
+   MAIN CONTAINER
+   ======================================================= */
+.container {
+  width: 100%;
+  max-width: var(--page-max);
+  margin: 0 auto;
+  padding: 2px var(--gutter) 56px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--section-gap);
+
+  box-sizing: border-box;
+  color: var(--text);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* =======================================================
+   HERO
+   ======================================================= */
 .hero {
-  width: 100%;                  /* 🔧 hero spans container width */
-  display: flex;                /* 🔧 stack hero content */
-  flex-direction: column;       /* 🔧 vertical */
-  align-items: center;          /* 🔧 center hero items */
-  text-align: center;           /* 🔧 keep name/tagline centered */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  padding-top: 2px;
 }
 
-/* Headshot image */
+/* Headshot image
+   ✅ NO CROPPING
+   - Keep height:auto so aspect ratio is preserved
+   - Use max-height to reduce hero height safely
+*/
 .hero__image {
-  width: min(420px, 92vw);      /* 🔧 image max size vs viewport */
-  height: auto;                 /* 🔧 preserve aspect ratio */
-  border-radius: var(--radius-img); /* 🔧 rounded corners */
-  margin-top: 10px;             /* 🔧 space above image */
-  margin-bottom: 18px;          /* 🔧 space below image */
+  width: min(var(--hero-img-width), 86vw);
+  height: auto;
+
+  max-height: var(--hero-img-max-h);
+
+  border-radius: var(--radius-img);
+  box-shadow: var(--shadow-img);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+
+  margin-top: 4px;
+  margin-bottom: 8px;
 }
 
 /* Name */
 .hero__name {
-  font-size: 44px;              /* 🔧 name size */
-  font-weight: 800;             /* 🔧 boldness */
-  margin: 0;                    /* 🔧 remove default margins */
-  line-height: 1.05;            /* 🔧 tighter headline spacing */
+  font-size: var(--name-size);
+  font-weight: 850;
+  letter-spacing: -0.02em;
+  margin: 0;
+  line-height: 1.02;
 }
 
 /* Tagline */
 .hero__tagline {
-  font-size: 18px;              /* 🔧 tagline size */
-  font-style: italic;           /* 🔧 italics style */
-  color: var(--muted);          /* 🔧 muted tone */
-  margin-top: 10px;             /* 🔧 space from name */
-  margin-bottom: 26px;          /* 🔧 space before the card */
+  font-size: var(--tagline-size);
+  font-style: italic;
+  color: var(--muted);
+  margin: 6px 0 0;
+  line-height: 1.35;
 }
 
-/* ============================================= */
-/* TEXT CARD (left aligned)                      */
-/* ============================================= */
+/* =======================================================
+   TEXT CARD
+   ======================================================= */
 .hero__text {
-  width: min(var(--text-max), 94vw); /* 🔧 readable line length */
-  background: var(--card);      /* 🔧 subtle card bg */
-  border: 1px solid var(--border); /* 🔧 subtle border */
-  border-radius: var(--radius-lg); /* 🔧 rounded corners */
-  padding: 26px 26px;           /* 🔧 inside spacing */
-  line-height: 1.75;            /* 🔧 readability */
-  font-size: 18px;              /* 🔧 text size */
+  width: min(var(--text-max), 94vw);
 
-  text-align: left;             /* 🔧 “executive” feel for paragraphs */
+  background: linear-gradient(180deg, var(--card), var(--card-2));
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+
+  padding: 20px 22px;
+  line-height: 1.72;
+  font-size: var(--body-size);
+  text-align: left;
+
+  backdrop-filter: blur(4px);
 }
 
-/* Paragraph spacing */
 .hero__text p {
-  margin: 0 0 18px 0;           /* 🔧 spacing between paragraphs */
+  margin: 0 0 16px 0;
 }
 .hero__text p:last-child {
-  margin-bottom: 0;             /* 🔧 no extra space at end */
+  margin-bottom: 0;
 }
 
-/* ============================================= */
-/* ICON LINK STYLING (applies to <a> inside icon-row) */
-/* NOTE: If your icons are styled in ContactIcons.css, this may be redundant. */
-/* ============================================= */
-.icon-row a {
-  display: inline-flex;         /* 🔧 centers icon inside click area */
-  align-items: center;          /* 🔧 vertical center */
-  justify-content: center;      /* 🔧 horizontal center */
-  width: 52px;                  /* 🔧 click target width */
-  height: 52px;                 /* 🔧 click target height */
-  color: var(--text);           /* 🔧 icon color */
-  font-size: 34px;              /* 🔧 icon size */
-  transition: transform 0.2s ease, color 0.2s ease; /* 🔧 hover feel */
-}
-.icon-row a:hover {
-  transform: scale(1.12);       /* 🔧 hover zoom */
-  color: var(--hover);          /* 🔧 hover color */
-}
-
-/* ============================================= */
-/* ANIMATION: FADE IN UP                         */
-/* ============================================= */
+/* =======================================================
+   ANIMATION: FADE IN UP
+   ======================================================= */
 .fade-in-up {
   opacity: 0;
-  transform: translateY(14px);
-  animation: fadeInUp 0.9s ease forwards;
-  animation-delay: var(--d, 0s);   /* add this line */
+  transform: translateY(10px);
+  animation: fadeInUp 0.85s ease forwards;
+  animation-delay: var(--d, 0s);
 }
 
 @keyframes fadeInUp {
   to {
-    opacity: 1;                 /* 🔧 end visible */
-    transform: translateY(0);   /* 🔧 end in place */
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-/* Respect user's motion preferences (senior-engineer touch) */
 @media (prefers-reduced-motion: reduce) {
   .fade-in-up {
-    animation: none;            /* 🔧 disables animation */
-    opacity: 1;                 /* 🔧 always visible */
-    transform: none;            /* 🔧 no movement */
+    animation: none;
+    opacity: 1;
+    transform: none;
   }
 }
 
-/* ============================================= */
-/* RESPONSIVE (phones / small tablets)           */
-/* ============================================= */
+/* =======================================================
+   RESPONSIVE
+   ======================================================= */
+@media (min-width: 1200px) {
+  .hero__image {
+    width: min(var(--hero-img-width-lg), 380px);
+  }
+}
+
 @media (max-width: 768px) {
-  .hero__name { font-size: 34px; }      /* 🔧 shrink name on small screens */
-  .hero__text { padding: 18px 16px; font-size: 15px; } /* 🔧 compact card */
-  /* IMPORTANT: icon spacing belongs in ContactIcons.css on .icon-container */
+  .container {
+    padding: 6px var(--gutter) 48px;
+    gap: 16px;
+  }
+
+  .hero__image {
+    width: min(320px, 90vw);
+    max-height: none;
+  }
+
+  .hero__text {
+    padding: 18px 16px;
+  }
 }
